@@ -7,7 +7,7 @@ student. I have no machine, no simulation license and no partner shop yet, so ev
 The long-term goal is a small hardware + software product for molding shops: a data logger plus a model that
 flags bad parts and helps with settings.
 
-> **I am sharing this to get advice from experienced molding engineers.**
+> **I am sharing this to get advice.**
 > If you have 15 minutes, read [What I found](#what-i-found) and answer any of the
 > [questions at the end](#questions-for-experienced-engineers). Corrections are very welcome — especially
 > where my physics interpretation is wrong or where a real shop works differently.
