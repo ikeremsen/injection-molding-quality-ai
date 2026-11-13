@@ -1,0 +1,335 @@
+=== SKZ: basic shape ===
+rows: 564, original columns: 364, array columns: 143
+MET_MachineCycleID unique: True
+
+rows / experiments / material per day:
+            rows  groups material moisture
+day                                       
+2021-12-07   204      17       PP    0.047
+2021-12-15   204      17      ABS    0.049
+2022-03-17   156      13       PP    0.042
+total groups (day+experiment): 47
+parts per group: {12: 45, 13: 1, 11: 1}
+experiment numbers per day:
+  2021-12-07: ['A01', 'A02', 'A03', 'A04', 'A05', 'A06', 'A07', 'A08', 'A09', 'A10', 'A11', 'A12', 'A13', 'A14', 'A15', 'A16', 'Z01']
+  2021-12-15: ['A01', 'A02', 'A03', 'A04', 'A05', 'A06', 'A07', 'A08', 'A09', 'A10', 'A11', 'A12', 'A13', 'A14', 'A15', 'A16', 'Z01']
+  2022-03-17: ['A20', 'A21', 'A22', 'A23', 'A24', 'A25', 'A26', 'A27', 'A28', 'A29', 'A30', 'A31', 'A32']
+number of contiguous runs of a group in time order: 47 (47 = each group run once, in one block)
+
+=== Column inventory per prefix ===
+                n           role  any_missing  constant
+prefix kind                                            
+CALC   scalar   3  INPUT-allowed            3         0
+CV     scalar  15      FORBIDDEN            2         0
+DOS    array   21      UNDECIDED           21        13
+DRY    array   31      UNDECIDED           27        15
+DXP    array   69  INPUT-allowed            0         0
+       scalar   5  INPUT-allowed            0         0
+ENV    scalar   2  INPUT-allowed            0         0
+IR     scalar  76      FORBIDDEN           25         0
+LBL    scalar   8      FORBIDDEN            1         0
+MET    scalar   7      FORBIDDEN            0         0
+QUA    scalar  43  INPUT-allowed            4         0
+SCA    scalar   1      FORBIDDEN            0         0
+SET    scalar  10  INPUT-allowed            1         0
+SIM    scalar  29      FORBIDDEN           29         1
+TCE    array   11  INPUT-allowed            1         0
+       scalar  11  INPUT-allowed            1         0
+TCN    array   11  INPUT-allowed            0         0
+       scalar  11  INPUT-allowed            0         0
+
+UNDECIDED prefixes (not in the allowed or forbidden list): ['DOS', 'DRY']
+
+constant columns (no information at all):
+DRY_HT101_acDryingTime, DRY_HT101_acSensorMoisture, DRY_HT101_sfBinOn, DRY_HT101_sfDryingFinished, DRY_HT101_sfTimerOn, DRY_HT101_svDryingTime, DRY_HT102_acDryingTime, DRY_HT102_acSensorMoisture, DRY_HT102_sfBinOn, DRY_HT102_sfDryingFinished, DRY_HT102_sfTimerOn, DRY_HT102_svDryingTime, DRY_HT102_svTempDryair, DRY_HT102_svTempReturnAir, DRY_HT102_svTempStandby, DOS_acComp1Percent, DOS_acComp2DosRate, DOS_acComp2Percent, DOS_acComp2TotalWeight, DOS_acComp3DosRate, DOS_acComp3Percent, DOS_acComp3TotalWeight, DOS_acComp4DosRate, DOS_acComp4Percent, DOS_acComp4TotalWeight, DOS_sfDryerOn, DOS_sfTimerOn, DOS_svBatchWeight, SIM_VolumeFractionMax
+
+scalar columns with missing values (count per day):
+                   column          role  missing_2021-12-07  missing_2021-12-15  missing_2022-03-17
+         SET_BackPressure INPUT-allowed                 204                 204                   0
+         LBL_OldGranulate     FORBIDDEN                   0                 152                   0
+     QUA_MeltPressure2Max INPUT-allowed                   0                   0                 156
+   QUA_HoldingPressureMax INPUT-allowed                   0                   0                 156
+      QUA_InjectionSpeed1 INPUT-allowed                   0                   0                 156
+  QUA_PlastificationSpeed INPUT-allowed                   0                   0                 156
+   TCE_ActualFlowRateMean INPUT-allowed                   0                   0                 156
+            IR_Image3Name     FORBIDDEN                   0                   0                 156
+               SIM_Width1     FORBIDDEN                   0                 204                 144
+               SIM_Width2     FORBIDDEN                   0                 204                 144
+               SIM_Width3     FORBIDDEN                   0                 204                 144
+              SIM_Height1     FORBIDDEN                   0                 204                 144
+              SIM_Height2     FORBIDDEN                   0                 204                 144
+              SIM_Height3     FORBIDDEN                   0                 204                 144
+                SIM_Width     FORBIDDEN                   0                 204                 144
+               SIM_Height     FORBIDDEN                   0                 204                 144
+         SIM_Height2Small     FORBIDDEN                   0                 204                 144
+          SIM_Width2Small     FORBIDDEN                   0                 204                 144
+            SIM_Diameter3     FORBIDDEN                   0                 204                 144
+            SIM_Roundness     FORBIDDEN                   0                 204                 144
+            SIM_TempSprue     FORBIDDEN                   0                 204                   0
+             SIM_TempDome     FORBIDDEN                   0                 204                   0
+          SIM_TempEdgeHor     FORBIDDEN                   0                 204                   0
+          SIM_TempEdgeVer     FORBIDDEN                   0                 204                   0
+       SIM_TempGradVerStd     FORBIDDEN                   0                 204                 156
+       SIM_TempGradVerRng     FORBIDDEN                   0                 204                 156
+           SIM_TempVerStd     FORBIDDEN                   0                 204                 156
+           SIM_TempVerRng     FORBIDDEN                   0                 204                 156
+       SIM_TempGradHorStd     FORBIDDEN                   0                 204                 156
+       SIM_TempGradHorRng     FORBIDDEN                   0                 204                 156
+           SIM_PartWeight     FORBIDDEN                   0                 204                   0
+          SIM_TotalWeight     FORBIDDEN                   0                 204                 156
+ SIM_InjectionPressureMax     FORBIDDEN                   0                 204                 156
+SIM_InjectionPressureArea     FORBIDDEN                   0                 204                 156
+          SIM_FlowRateMax     FORBIDDEN                   0                 204                 156
+         SIM_FlowRateArea     FORBIDDEN                   0                 204                 156
+    SIM_VolumeFractionMax     FORBIDDEN                   0                 204                 156
+         IR_Img3TempSprue     FORBIDDEN                   0                   0                 156
+          IR_Img3TempDome     FORBIDDEN                   0                   0                 156
+          IR_Img3TempFull     FORBIDDEN                   0                   0                 156
+       IR_Img3TempEdgeHor     FORBIDDEN                   0                   0                 156
+       IR_Img3TempEdgeVer     FORBIDDEN                   0                   0                 156
+    IR_Img3TempGradHorStd     FORBIDDEN                   0                   0                 156
+    IR_Img3TempGradHorRng     FORBIDDEN                   0                   0                 156
+    IR_Img3TempGradVerStd     FORBIDDEN                   0                   0                 156
+    IR_Img3TempGradVerRng     FORBIDDEN                   0                   0                 156
+        IR_Img3TempVerStd     FORBIDDEN                   0                   0                 156
+        IR_Img3TempVerRng     FORBIDDEN                   0                   0                 156
+     IR_Img3TempSprueDiff     FORBIDDEN                   0                   0                 156
+      IR_Img3TempDomeDiff     FORBIDDEN                   0                   0                 156
+      IR_Img3TempFullDiff     FORBIDDEN                   0                   0                 156
+   IR_Img3TempEdgeHorDiff     FORBIDDEN                   0                   0                 156
+   IR_Img3TempEdgeVerDiff     FORBIDDEN                   0                   0                 156
+IR_Img3TempGradHorStdDiff     FORBIDDEN                   0                   0                 156
+IR_Img3TempGradHorRngDiff     FORBIDDEN                   0                   0                 156
+    IR_Img3TempVerStdDiff     FORBIDDEN                   0                   0                 156
+    IR_Img3TempVerRngDiff     FORBIDDEN                   0                   0                 156
+IR_Img3TempGradVerStdDiff     FORBIDDEN                   0                   0                 156
+IR_Img3TempGradVerRngDiff     FORBIDDEN                   0                   0                 156
+       IR_Img3TempWallStd     FORBIDDEN                   0                   0                 156
+   IR_Img3TempWallStdDiff     FORBIDDEN                   0                   0                 156
+                 CV_Width     FORBIDDEN                 204                 204                   0
+            CV_Image4Name     FORBIDDEN                 204                 204                   0
+     CALC_InjectionStroke INPUT-allowed                   0                 204                   0
+        CALC_DosingStroke INPUT-allowed                   0                 204                   0
+         CALC_DosedWeight INPUT-allowed                   0                 204                   0
+
+array columns with missing arrays (count per day):
+                     column          role  missing_2021-12-07  missing_2021-12-15  missing_2022-03-17
+         TCE_ActualFlowRate INPUT-allowed                   0                   0                 156
+        DRY_HT101_acAirFlow     UNDECIDED                   0                   0                 156
+     DRY_HT101_acDryingTime     UNDECIDED                   0                   0                 156
+ DRY_HT101_acSensorMoisture     UNDECIDED                   0                   0                 156
+          DRY_HT101_sfBinOn     UNDECIDED                   0                   0                 156
+ DRY_HT101_sfDryingFinished     UNDECIDED                   0                   0                 156
+        DRY_HT101_sfTimerOn     UNDECIDED                   0                   0                 156
+     DRY_HT101_svDryingTime     UNDECIDED                   0                   0                 156
+     DRY_HT101_svTempDryair     UNDECIDED                   0                   0                 156
+  DRY_HT101_svTempReturnAir     UNDECIDED                   0                   0                 156
+    DRY_HT101_svTempStandby     UNDECIDED                   0                   0                 156
+        DRY_HT102_acAirFlow     UNDECIDED                   0                   0                 156
+     DRY_HT102_acDryingTime     UNDECIDED                   0                   0                 156
+ DRY_HT102_acSensorMoisture     UNDECIDED                   0                   0                 156
+          DRY_HT102_sfBinOn     UNDECIDED                   0                   0                 156
+ DRY_HT102_sfDryingFinished     UNDECIDED                   0                   0                 156
+        DRY_HT102_sfTimerOn     UNDECIDED                   0                   0                 156
+     DRY_HT102_svDryingTime     UNDECIDED                   0                   0                 156
+     DRY_HT102_svTempDryair     UNDECIDED                   0                   0                 156
+  DRY_HT102_svTempReturnAir     UNDECIDED                   0                   0                 156
+    DRY_HT102_svTempStandby     UNDECIDED                   0                   0                 156
+         DOS_acBatchCounter     UNDECIDED                   0                   0                 156
+         DOS_acComp1DosRate     UNDECIDED                   0                   0                 156
+         DOS_acComp1Percent     UNDECIDED                   0                   0                 156
+     DOS_acComp1TotalWeight     UNDECIDED                   0                   0                 156
+         DOS_acComp2DosRate     UNDECIDED                   0                   0                 156
+         DOS_acComp2Percent     UNDECIDED                   0                   0                 156
+     DOS_acComp2TotalWeight     UNDECIDED                   0                   0                 156
+         DOS_acComp3DosRate     UNDECIDED                   0                   0                 156
+         DOS_acComp3Percent     UNDECIDED                   0                   0                 156
+     DOS_acComp3TotalWeight     UNDECIDED                   0                   0                 156
+         DOS_acComp4DosRate     UNDECIDED                   0                   0                 156
+         DOS_acComp4Percent     UNDECIDED                   0                   0                 156
+     DOS_acComp4TotalWeight     UNDECIDED                   0                   0                 156
+DOS_acDessicantBedCycleTime     UNDECIDED                   0                   0                 156
+   DOS_acDryCircuitDewPoint     UNDECIDED                   0                   0                 156
+  DOS_acRegCircuitInletTemp     UNDECIDED                   0                   0                 156
+          DOS_acTotalWeight     UNDECIDED                   0                   0                 156
+               DOS_acWeight     UNDECIDED                   0                   0                 156
+              DOS_sfDryerOn     UNDECIDED                   0                   0                 156
+              DOS_sfTimerOn     UNDECIDED                   0                   0                 156
+          DOS_svBatchWeight     UNDECIDED                   0                   0                 156
+         DRY_acBatchCounter     UNDECIDED                 204                 204                   0
+         DRY_acComp1DosRate     UNDECIDED                 204                 204                   0
+     DRY_acComp1TotalWeight     UNDECIDED                 204                 204                   0
+   DRY_acDryCircuitDewPoint     UNDECIDED                 204                 204                   0
+  DRY_acRegCircuitInletTemp     UNDECIDED                 204                 204                   0
+          DRY_acTotalWeight     UNDECIDED                 204                 204                   0
+               DRY_acWeight     UNDECIDED                 204                 204                   0
+
+allowed scalar inputs that only vary BETWEEN days (constant within each day):
+SET_HoldingTime2, TCE_ActualProcessPowerMean, TCE_ActualPumpPowerMean, TCE_ActualPumpSpeedRPMMean, TCE_ActualPumpSpeedMean, TCN_ActualPumpSpeedRPMMean, TCN_ActualPumpSpeedMean
+
+=== Array sampling check ===
+DXP_Inj1PrsAct: length / cycle time = 200.0 samples per s (min 200.0, max 200.1)
+TCE_TemperatureMainLine: length / cycle time = 1.0 samples per s (min 1.0, max 1.0)
+DOS_acWeight: length / cycle time = 0.5 samples per s (min 0.0, max 2.3)
+DRY_HT101_acTempDryair: length / cycle time = 0.5 samples per s (min 0.4, max 2.3)
+
+=== Labels ===
+overall positive rate:
+LBL_NOK              0.275
+LBL_SinkMarks        0.254
+LBL_SprueCircle      0.128
+LBL_Underfilled      0.106
+LBL_StreaksLevel1    0.053
+LBL_StreaksLevel2    0.032
+LBL_StreaksLevel3    0.085
+LBL_OldGranulate     0.022
+
+NOK rate per day and count:
+            sum  size   mean
+day                         
+2021-12-07   95   204  0.466
+2021-12-15   48   204  0.235
+2022-03-17   12   156  0.077
+
+all labels by day (rate):
+day                2021-12-07  2021-12-15  2022-03-17
+LBL_NOK                 0.466       0.235       0.077
+LBL_SinkMarks           0.466       0.235       0.000
+LBL_SprueCircle         0.294       0.000       0.077
+LBL_Underfilled         0.235       0.000       0.077
+LBL_StreaksLevel1       0.000       0.147       0.000
+LBL_StreaksLevel2       0.000       0.088       0.000
+LBL_StreaksLevel3       0.000       0.235       0.000
+LBL_OldGranulate        0.000       0.000       0.058
+
+rows where LBL_NOK != (SinkMarks OR Underfilled): 0
+rows with BOTH sink marks and underfilled: 48
+
+NOK rate per group: how 'pure' are groups?
+  groups with NOK rate 0: 34, rate 1: 13, mixed (0<rate<1): 0 of 47
+  mixed groups: 
+  LBL_SinkMarks: groups all-1 12, all-0 35, mixed 0
+  LBL_Underfilled: groups all-1 5, all-0 42, mixed 0
+  NOK rate by part position (1=first part after setting change), mixed groups only:
+  {}
+
+=== Regression targets ===
+SCA_PartWeight:
+            count     mean    std     min      25%      50%     75%     max
+day                                                                        
+2021-12-07  204.0   91.038  2.437   86.23   89.942   91.290   92.59   95.19
+2021-12-15  204.0  111.344  0.880  109.84  110.700  111.420  112.11  112.78
+2022-03-17  156.0   95.865  1.810   90.93   95.398   96.055   97.34   97.73
+  median within-group std: 0.018; overall std: 9.149
+CV_Warpage:
+            count   mean    std   min   25%    50%    75%   max
+day                                                            
+2021-12-07  204.0  0.973  0.367  0.37  0.78  0.895  1.020  2.27
+2021-12-15  204.0  0.429  0.302  0.05  0.21  0.410  0.490  1.49
+2022-03-17  156.0  1.448  0.632  0.52  1.06  1.435  1.638  7.10
+  median within-group std: 0.045; overall std: 0.598
+
+part weight by NOK (does weight already 'know' the label?):
+LBL_NOK          0       1
+day                       
+2021-12-07   92.90   88.90
+2021-12-15  111.63  110.41
+2022-03-17   95.98   94.45
+
+=== Settings per group (compare with PDF tables) ===
+                                 SET_CylinderTemperature  SET_ToolTemperature  SET_HoldingPressure1  SET_HoldingPressure2  SET_InjectionSpeed  SET_BackPressure  SET_HoldingTime1  SET_HoldingTime2  SET_CoolingTime  SET_TransferVolume
+day        MET_ExperimentNumber                                                                                                                                                                                                         
+2021-12-07 A01                                     250.0                 50.0                 200.0                    30               100.0               NaN               7.0                18             22.5               26.40
+           A02                                     250.0                 50.0                  60.0                    30               100.0               NaN               7.0                18             22.5               26.80
+           A03                                     250.0                 50.0                 200.0                    30                15.0               NaN               7.0                18             15.5               21.30
+           A04                                     250.0                 50.0                  60.0                    30                15.0               NaN               7.0                18             15.5               21.30
+           A05                                     250.0                 20.0                 200.0                    30               100.0               NaN               7.0                18             22.5               25.70
+           A06                                     250.0                 20.0                  60.0                    30               100.0               NaN               7.0                18             22.5               25.70
+           A07                                     250.0                 20.0                 200.0                    30                15.0               NaN               7.0                18             15.0               19.60
+           A08                                     250.0                 20.0                  60.0                    30                15.0               NaN               7.0                18             15.0               19.60
+           A09                                     200.0                 50.0                 200.0                    30               100.0               NaN               7.0                18             22.5               26.40
+           A10                                     200.0                 50.0                  60.0                    30               100.0               NaN               7.0                18             22.5               26.40
+           A11                                     200.0                 50.0                 200.0                    30                15.0               NaN               7.0                18             15.3               21.30
+           A12                                     200.0                 50.0                  60.0                    30                15.0               NaN               7.0                18             15.3               21.30
+           A13                                     200.0                 20.0                 200.0                    30               100.0               NaN               7.0                18             22.5               25.80
+           A14                                     200.0                 20.0                  60.0                    30               100.0               NaN               7.0                18             22.5               25.80
+           A15                                     200.0                 20.0                 200.0                    30                15.0               NaN               7.0                18             15.5               20.00
+           A16                                     200.0                 20.0                 200.0                    30                15.0               NaN               7.0                18             15.5               20.00
+           Z01                                     225.0                 35.0                 130.0                    30                58.0               NaN               7.0                18             21.5               24.90
+2021-12-15 A01                                     260.0                 80.0                 350.0                     0                80.0               NaN              25.0                 0             23.0               23.00
+           A02                                     260.0                 80.0                 350.0                     0                80.0               NaN              25.0                 0             23.0               23.00
+           A03                                     260.0                 80.0                 350.0                     0                20.0               NaN              25.0                 0             18.0               18.00
+           A04                                     260.0                 80.0                 200.0                     0                20.0               NaN              25.0                 0             18.0               18.00
+           A05                                     260.0                 30.0                 350.0                     0                80.0               NaN              25.0                 0             23.0               23.00
+           A06                                     260.0                 30.0                 200.0                     0                80.0               NaN              25.0                 0             23.0               23.00
+           A07                                     260.0                 30.0                 350.0                     0                80.0               NaN              25.0                 0             18.0               18.00
+           A08                                     260.0                 30.0                 200.0                     0                80.0               NaN              25.0                 0             18.0               18.00
+           A09                                     220.0                 80.0                 350.0                     0                80.0               NaN              25.0                 0             23.0               23.00
+           A10                                     220.0                 80.0                 200.0                     0                80.0               NaN              25.0                 0             23.0               23.00
+           A11                                     220.0                 80.0                 350.0                     0                20.0               NaN              25.0                 0             18.0               18.00
+           A12                                     220.0                 80.0                 200.0                     0                20.0               NaN              25.0                 0             18.0               18.00
+           A13                                     220.0                 30.0                 350.0                     0                80.0               NaN              25.0                 0             23.0               23.00
+           A14                                     220.0                 30.0                 200.0                     0                80.0               NaN              25.0                 0             23.0               23.00
+           A15                                     220.0                 30.0                 350.0                     0                20.0               NaN              25.0                 0             18.0               18.00
+           A16                                     220.0                 30.0                 200.0                     0                20.0               NaN              25.0                 0             18.0               18.00
+           Z01                                     240.0                 55.0                 275.0                     0                50.0               NaN              25.0                 0             22.0               22.00
+2022-03-17 A20                                     220.0                 20.0                 100.0                     0                40.0              80.0              15.0                 0             14.0               26.13
+           A21                                     220.0                 20.0                 100.0                     0                40.0              80.0              15.0                 0             14.0               24.00
+           A22                                     220.0                 40.0                 200.0                     0                58.0              80.0              20.0                 0             20.0               25.30
+           A23                                     220.0                 60.0                 300.0                     0               104.5              80.0              25.0                 0             26.0               26.50
+           A24                                     240.0                 20.0                 300.0                     0                58.0              80.0              17.5                 0             23.0               25.20
+           A25                                     240.0                 40.0                 150.0                     0               104.5              80.0              22.5                 0             14.0               26.10
+           A26                                     240.0                 60.0                 250.0                     0                47.5              80.0              15.0                 0             20.0               25.45
+           A27                                     260.0                 20.0                 250.0                     0               104.5              80.0              20.0                 0             17.0               25.40
+           A28                                     260.0                 40.0                 100.0                     0                25.0              80.0              25.0                 0             23.0               24.60
+           A29                                     260.0                 60.0                 200.0                     0                74.5              80.0              17.5                 0             14.0               25.70
+           A30                                     240.0                 20.0                 300.0                     0                58.0             115.0              17.5                 0             23.0               26.30
+           A31                                     240.0                 20.0                 300.0                     0                58.0             150.0              17.5                 0             23.0               27.70
+           A32                                     250.0                 50.0                 200.0                    30               100.0              80.0               0.0                 0             22.5               26.40
+
+distinct SET_ combinations across all 47 groups: 45
+
+setpoint vs actual value (median |actual - set| per day):
+  SET_CylinderTemperature      vs QUA_CylinderTemperature11      corr  1.00  median|diff| {'2021-12-07': 1.0, '2021-12-15': 0.0, '2022-03-17': 0.0}
+  SET_ToolTemperature          vs TCE_TemperatureMainLineMean    corr  1.00  median|diff| {'2021-12-07': 0.3, '2021-12-15': 0.44, '2022-03-17': 0.4}
+  SET_InjectionSpeed           vs QUA_InjectionSpeed1            corr  0.92  median|diff| {'2021-12-07': 6.4, '2021-12-15': 2.6, '2022-03-17': nan}
+  SET_HoldingPressure1         vs DXP_HoldingPressure1           corr  0.96  median|diff| {'2021-12-07': 4.6, '2021-12-15': 0.4, '2022-03-17': 1.8}
+  SET_HoldingPressure2         vs DXP_HoldingPressure2           corr  0.78  median|diff| {'2021-12-07': 1.5, '2021-12-15': 0.0, '2022-03-17': 0.0}
+  SET_HoldingTime1             vs DXP_HoldingTime1               corr  0.99  median|diff| {'2021-12-07': 0.0, '2021-12-15': 0.0, '2022-03-17': 0.0}
+  SET_HoldingTime2             vs DXP_HoldingTime2               corr  0.96  median|diff| {'2021-12-07': 0.0, '2021-12-15': 0.0, '2022-03-17': 0.0}
+  SET_CoolingTime              vs QUA_CoolingTime                corr  1.00  median|diff| {'2021-12-07': 0.0, '2021-12-15': 0.0, '2022-03-17': 0.0}
+  SET_TransferVolume           vs QUA_TransferStroke             corr  0.91  median|diff| {'2021-12-07': 0.02, '2021-12-15': 2.25, '2022-03-17': 0.01}
+
+=== Leakage / proxy checks on ALLOWED inputs ===
+allowed scalars with |Spearman corr| > 0.9 to machine cycle number (time proxies):
+  {}
+allowed scalars with |Spearman corr| > 0.95 to cycle number WITHIN every day:
+  QUA_OilTemperature
+array columns whose name suggests a counter / cumulative total:
+  DXP_Counter2Counter2Act, DOS_acBatchCounter, DOS_acComp1TotalWeight, DOS_acComp2TotalWeight, DOS_acComp3TotalWeight, DOS_acComp4TotalWeight, DOS_acTotalWeight, DRY_acBatchCounter, DRY_acComp1TotalWeight, DRY_acTotalWeight
+
+single allowed scalar vs LBL_NOK, ROC-AUC on ALL rows (no CV; screening only):
+CALC_InjectionStroke          0.940
+CALC_DosingStroke             0.940
+CALC_DosedWeight              0.929
+QUA_CushionVolume             0.905
+DXP_AreaCavityPressure        0.859
+QUA_AreaCavityPressure1Dr1    0.859
+DXP_HoldingPressure1          0.851
+SET_HoldingPressure1          0.827
+QUA_AreaCavityPressure1Max    0.822
+QUA_CavityPressure1Max        0.820
+QUA_PlastificationTime        0.795
+QUA_AreaInjectionSpeed        0.782
+QUA_AreaMeltPressure          0.779
+QUA_BackPressureMax           0.759
+ENV_AirHumidity               0.757
+
+=== Environment ===
+           ENV_AirTemperature       ENV_AirHumidity      
+                          min   max             min   max
+day                                                      
+2021-12-07               16.8  21.6            26.0  32.0
+2021-12-15               18.4  22.9            30.0  40.0
+2022-03-17               18.1  20.4            70.0  70.0
+ENV within-group std (median): temp 0.00, humidity 0.00

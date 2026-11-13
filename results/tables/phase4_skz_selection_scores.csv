@@ -1,0 +1,145 @@
+target,variant,seed,k,outer_score
+LBL_NOK,with setpoints,0,1,0.8810631753292847
+LBL_NOK,with setpoints,0,2,0.9605331650761101
+LBL_NOK,with setpoints,0,3,0.9681993848095276
+LBL_NOK,with setpoints,0,4,0.9764492467860242
+LBL_NOK,with setpoints,0,5,0.9751399952677656
+LBL_NOK,with setpoints,0,all,0.9635460209795725
+LBL_NOK,with setpoints,1,1,0.8562504929410837
+LBL_NOK,with setpoints,1,2,0.9058285353734522
+LBL_NOK,with setpoints,1,3,0.9258458868995978
+LBL_NOK,with setpoints,1,4,0.9235428661566369
+LBL_NOK,with setpoints,1,5,0.9240949601703605
+LBL_NOK,with setpoints,1,all,0.9497436706364856
+LBL_NOK,with setpoints,2,1,0.7969240476378264
+LBL_NOK,with setpoints,2,2,0.8458711254830824
+LBL_NOK,with setpoints,2,3,0.9031627099929016
+LBL_NOK,with setpoints,2,4,0.9394904960959066
+LBL_NOK,with setpoints,2,5,0.9402476536004416
+LBL_NOK,with setpoints,2,all,0.9473775534348136
+LBL_NOK,measured signals only,0,1,0.855382916633804
+LBL_NOK,measured signals only,0,2,0.9233378026658253
+LBL_NOK,measured signals only,0,3,0.951399952677656
+LBL_NOK,measured signals only,0,4,0.9540815521728843
+LBL_NOK,measured signals only,0,5,0.9532139758656044
+LBL_NOK,measured signals only,0,all,0.9610852590898336
+LBL_NOK,measured signals only,1,1,0.8711885795409733
+LBL_NOK,measured signals only,1,2,0.9081946525751242
+LBL_NOK,measured signals only,1,3,0.9121539553592554
+LBL_NOK,measured signals only,1,4,0.9317769540184557
+LBL_NOK,measured signals only,1,5,0.9368877671740673
+LBL_NOK,measured signals only,1,all,0.9485763861503274
+LBL_NOK,measured signals only,2,1,0.793564161211452
+LBL_NOK,measured signals only,2,2,0.8800851802192603
+LBL_NOK,measured signals only,2,3,0.9233062544364697
+LBL_NOK,measured signals only,2,4,0.9293319662433946
+LBL_NOK,measured signals only,2,5,0.9471409417146462
+LBL_NOK,measured signals only,2,all,0.9463837842101112
+LBL_SinkMarks,with setpoints,0,1,0.9549358005415013
+LBL_SinkMarks,with setpoints,0,2,0.9926083417769879
+LBL_SinkMarks,with setpoints,0,3,0.9956480574057771
+LBL_SinkMarks,with setpoints,0,4,0.9962460342507848
+LBL_SinkMarks,with setpoints,0,5,0.9999003371924987
+LBL_SinkMarks,with setpoints,0,all,1.0
+LBL_SinkMarks,with setpoints,1,1,0.9431589787884325
+LBL_SinkMarks,with setpoints,1,2,0.9992193080079066
+LBL_SinkMarks,with setpoints,1,3,0.9986545520987327
+LBL_SinkMarks,with setpoints,1,4,0.9984053950799794
+LBL_SinkMarks,with setpoints,1,5,0.9982392904008106
+LBL_SinkMarks,with setpoints,1,all,1.0
+LBL_SinkMarks,with setpoints,2,1,0.9273790342673952
+LBL_SinkMarks,with setpoints,2,2,0.9605833596332409
+LBL_SinkMarks,with setpoints,2,3,0.9397704433333887
+LBL_SinkMarks,with setpoints,2,4,0.9658156570270586
+LBL_SinkMarks,with setpoints,2,5,0.966313971064565
+LBL_SinkMarks,with setpoints,2,all,0.9999335581283325
+LBL_SinkMarks,measured signals only,0,1,0.9162666312310018
+LBL_SinkMarks,measured signals only,0,2,0.9725595070013122
+LBL_SinkMarks,measured signals only,0,3,0.9913957776190555
+LBL_SinkMarks,measured signals only,0,4,0.9947344816703487
+LBL_SinkMarks,measured signals only,0,5,0.9998837267245818
+LBL_SinkMarks,measured signals only,0,all,1.0
+LBL_SinkMarks,measured signals only,1,1,0.9486570436689201
+LBL_SinkMarks,measured signals only,1,2,0.9752836237396807
+LBL_SinkMarks,measured signals only,1,3,1.0
+LBL_SinkMarks,measured signals only,1,4,1.0
+LBL_SinkMarks,measured signals only,1,5,1.0
+LBL_SinkMarks,measured signals only,1,all,1.0
+LBL_SinkMarks,measured signals only,2,1,0.9057854259754498
+LBL_SinkMarks,measured signals only,2,2,0.9186585386110326
+LBL_SinkMarks,measured signals only,2,3,0.943790176569274
+LBL_SinkMarks,measured signals only,2,4,0.9689550354633489
+LBL_SinkMarks,measured signals only,2,5,0.9715130475225486
+LBL_SinkMarks,measured signals only,2,all,0.9998006743849974
+LBL_Underfilled,with setpoints,0,1,0.9630952380952381
+LBL_Underfilled,with setpoints,0,2,0.9659722222222222
+LBL_Underfilled,with setpoints,0,3,0.9662367724867724
+LBL_Underfilled,with setpoints,0,4,0.9229497354497356
+LBL_Underfilled,with setpoints,0,5,0.9280092592592593
+LBL_Underfilled,with setpoints,0,all,0.9090608465608466
+LBL_Underfilled,with setpoints,1,1,0.9678571428571429
+LBL_Underfilled,with setpoints,1,2,0.9620039682539683
+LBL_Underfilled,with setpoints,1,3,0.9176587301587301
+LBL_Underfilled,with setpoints,1,4,0.9148478835978836
+LBL_Underfilled,with setpoints,1,5,0.9242063492063493
+LBL_Underfilled,with setpoints,1,all,0.9049603174603174
+LBL_Underfilled,with setpoints,2,1,0.9630952380952381
+LBL_Underfilled,with setpoints,2,2,0.9676256613756613
+LBL_Underfilled,with setpoints,2,3,0.972420634920635
+LBL_Underfilled,with setpoints,2,4,0.9253968253968254
+LBL_Underfilled,with setpoints,2,5,0.9353835978835978
+LBL_Underfilled,with setpoints,2,all,0.916468253968254
+LBL_Underfilled,measured signals only,0,1,0.9630952380952381
+LBL_Underfilled,measured signals only,0,2,0.9659722222222222
+LBL_Underfilled,measured signals only,0,3,0.9662367724867724
+LBL_Underfilled,measured signals only,0,4,0.9232804232804234
+LBL_Underfilled,measured signals only,0,5,0.9228835978835979
+LBL_Underfilled,measured signals only,0,all,0.9082671957671958
+LBL_Underfilled,measured signals only,1,1,0.9678571428571429
+LBL_Underfilled,measured signals only,1,2,0.9620039682539683
+LBL_Underfilled,measured signals only,1,3,0.9176587301587301
+LBL_Underfilled,measured signals only,1,4,0.9117063492063493
+LBL_Underfilled,measured signals only,1,5,0.9103505291005292
+LBL_Underfilled,measured signals only,1,all,0.9046296296296297
+LBL_Underfilled,measured signals only,2,1,0.9630952380952381
+LBL_Underfilled,measured signals only,2,2,0.9676256613756613
+LBL_Underfilled,measured signals only,2,3,0.972420634920635
+LBL_Underfilled,measured signals only,2,4,0.9253968253968254
+LBL_Underfilled,measured signals only,2,5,0.93369708994709
+LBL_Underfilled,measured signals only,2,all,0.9156746031746033
+SCA_PartWeight,with setpoints,0,1,-1.103498098304735
+SCA_PartWeight,with setpoints,0,2,-0.49424153556583666
+SCA_PartWeight,with setpoints,0,3,-0.4767372597532699
+SCA_PartWeight,with setpoints,0,4,-0.4679970090835892
+SCA_PartWeight,with setpoints,0,5,-0.4604657053424352
+SCA_PartWeight,with setpoints,0,all,-0.5159883680033317
+SCA_PartWeight,with setpoints,1,1,-1.0204168782504142
+SCA_PartWeight,with setpoints,1,2,-0.3637333598584114
+SCA_PartWeight,with setpoints,1,3,-0.4432360504139141
+SCA_PartWeight,with setpoints,1,4,-0.4323593211591229
+SCA_PartWeight,with setpoints,1,5,-0.41382313949163446
+SCA_PartWeight,with setpoints,1,all,-0.46278287254788186
+SCA_PartWeight,with setpoints,2,1,-1.3107058982772677
+SCA_PartWeight,with setpoints,2,2,-0.6168919240260083
+SCA_PartWeight,with setpoints,2,3,-0.4736187820641991
+SCA_PartWeight,with setpoints,2,4,-0.45916014690349993
+SCA_PartWeight,with setpoints,2,5,-0.4511352433315985
+SCA_PartWeight,with setpoints,2,all,-0.46340029548477163
+SCA_PartWeight,measured signals only,0,1,-1.103498098304735
+SCA_PartWeight,measured signals only,0,2,-0.49424153556583666
+SCA_PartWeight,measured signals only,0,3,-0.4767372597532699
+SCA_PartWeight,measured signals only,0,4,-0.45849972106784825
+SCA_PartWeight,measured signals only,0,5,-0.4569426605586374
+SCA_PartWeight,measured signals only,0,all,-0.48963739482601687
+SCA_PartWeight,measured signals only,1,1,-0.7625744035803534
+SCA_PartWeight,measured signals only,1,2,-0.43474055491429214
+SCA_PartWeight,measured signals only,1,3,-0.44051778650625006
+SCA_PartWeight,measured signals only,1,4,-0.46008697493397815
+SCA_PartWeight,measured signals only,1,5,-0.46031048190990836
+SCA_PartWeight,measured signals only,1,all,-0.4623807234368303
+SCA_PartWeight,measured signals only,2,1,-0.9173452296147285
+SCA_PartWeight,measured signals only,2,2,-0.5192254662954869
+SCA_PartWeight,measured signals only,2,3,-0.4702399973162628
+SCA_PartWeight,measured signals only,2,4,-0.4350253571690917
+SCA_PartWeight,measured signals only,2,5,-0.45540102723488446
+SCA_PartWeight,measured signals only,2,all,-0.4449927725597625

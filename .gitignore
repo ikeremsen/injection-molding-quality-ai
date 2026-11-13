@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Raw data never goes into this repository (see README, "Getting the data")
+*.parquet
+data/
+ZIPS/
+02 Datasets/
+
+# Regenerable caches and run logs
+results/cache/
+results/tables/*_log.txt
+
+# Editors / OS
+.vscode/
+.idea/
+.ipynb_checkpoints/
+desktop.ini
+Thumbs.db
+.DS_Store

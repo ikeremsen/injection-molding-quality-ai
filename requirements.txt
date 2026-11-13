@@ -1,0 +1,13 @@
+# Core data handling
+pandas>=2.2
+pyarrow>=15
+numpy>=1.26
+openpyxl>=3.1
+# Modeling and explanation
+scikit-learn>=1.5
+shap>=0.46
+# Multi-objective optimization
+pymoo>=0.6.1
+# Plots and PDF reading (for the audit of the papers/docs)
+matplotlib>=3.8
+pypdf>=4

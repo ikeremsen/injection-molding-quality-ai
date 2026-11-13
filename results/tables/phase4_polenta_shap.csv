@@ -1,0 +1,781 @@
+task,subset,seed,fold,feature,mean_abs_shap,channel
+waste_vs_rest,clean rows,0,0,Melt temperature,0.035874723509941364,barrel_temperature
+waste_vs_rest,clean rows,0,0,Mold temperature,0.018346565684816057,mold_temperature
+waste_vs_rest,clean rows,0,0,time_to_fill,0.02080402138455513,phase_timing
+waste_vs_rest,clean rows,0,0,ZDx - Plasticizing time,0.02933634088370195,plastification
+waste_vs_rest,clean rows,0,0,ZUx - Cycle time,0.08979778273363093,phase_timing
+waste_vs_rest,clean rows,0,0,SKx - Closing force,0.07371188603972184,clamp_force
+waste_vs_rest,clean rows,0,0,SKs - Clamping force peak value,0.03818289288970829,clamp_force
+waste_vs_rest,clean rows,0,0,Ms - Torque peak value current cycle,0.013673090095541423,plastification
+waste_vs_rest,clean rows,0,0,Mm - Torque mean value current cycle,0.03288554520228148,plastification
+waste_vs_rest,clean rows,0,0,APSs - Specific back pressure peak value,0.010022307749402761,melt_pressure
+waste_vs_rest,clean rows,0,0,APVs - Specific injection pressure peak value,0.17629482365202712,melt_pressure
+waste_vs_rest,clean rows,0,0,CPn - Screw position at the end of hold pressure,0.016003223083235377,screw_position
+waste_vs_rest,clean rows,0,0,SVo - Shot volume,0.01329951253826219,screw_position
+waste_vs_rest,clean rows,0,1,Melt temperature,0.03798758527334933,barrel_temperature
+waste_vs_rest,clean rows,0,1,Mold temperature,0.019917468547590064,mold_temperature
+waste_vs_rest,clean rows,0,1,time_to_fill,0.03180386902322861,phase_timing
+waste_vs_rest,clean rows,0,1,ZDx - Plasticizing time,0.02254990119891968,plastification
+waste_vs_rest,clean rows,0,1,ZUx - Cycle time,0.08447859215705515,phase_timing
+waste_vs_rest,clean rows,0,1,SKx - Closing force,0.0570056248161261,clamp_force
+waste_vs_rest,clean rows,0,1,SKs - Clamping force peak value,0.019052994456177395,clamp_force
+waste_vs_rest,clean rows,0,1,Ms - Torque peak value current cycle,0.011494838038802782,plastification
+waste_vs_rest,clean rows,0,1,Mm - Torque mean value current cycle,0.03465818219940831,plastification
+waste_vs_rest,clean rows,0,1,APSs - Specific back pressure peak value,0.015194691787328433,melt_pressure
+waste_vs_rest,clean rows,0,1,APVs - Specific injection pressure peak value,0.17795675196417315,melt_pressure
+waste_vs_rest,clean rows,0,1,CPn - Screw position at the end of hold pressure,0.01865631941868458,screw_position
+waste_vs_rest,clean rows,0,1,SVo - Shot volume,0.016952150200971412,screw_position
+waste_vs_rest,clean rows,0,2,Melt temperature,0.015348889350147044,barrel_temperature
+waste_vs_rest,clean rows,0,2,Mold temperature,0.00970407157726945,mold_temperature
+waste_vs_rest,clean rows,0,2,time_to_fill,0.03184872977406119,phase_timing
+waste_vs_rest,clean rows,0,2,ZDx - Plasticizing time,0.019740122986253328,plastification
+waste_vs_rest,clean rows,0,2,ZUx - Cycle time,0.17605478161906127,phase_timing
+waste_vs_rest,clean rows,0,2,SKx - Closing force,0.022035232299924074,clamp_force
+waste_vs_rest,clean rows,0,2,SKs - Clamping force peak value,0.025865037273115253,clamp_force
+waste_vs_rest,clean rows,0,2,Ms - Torque peak value current cycle,0.010714869734922347,plastification
+waste_vs_rest,clean rows,0,2,Mm - Torque mean value current cycle,0.018525962414575242,plastification
+waste_vs_rest,clean rows,0,2,APSs - Specific back pressure peak value,0.010422383084058923,melt_pressure
+waste_vs_rest,clean rows,0,2,APVs - Specific injection pressure peak value,0.15369697234245103,melt_pressure
+waste_vs_rest,clean rows,0,2,CPn - Screw position at the end of hold pressure,0.020196947686705297,screw_position
+waste_vs_rest,clean rows,0,2,SVo - Shot volume,0.003753100481468108,screw_position
+waste_vs_rest,clean rows,0,3,Melt temperature,0.018380291291597812,barrel_temperature
+waste_vs_rest,clean rows,0,3,Mold temperature,0.02206747090542194,mold_temperature
+waste_vs_rest,clean rows,0,3,time_to_fill,0.02635229016902844,phase_timing
+waste_vs_rest,clean rows,0,3,ZDx - Plasticizing time,0.09169988675008055,plastification
+waste_vs_rest,clean rows,0,3,ZUx - Cycle time,0.10872742205463477,phase_timing
+waste_vs_rest,clean rows,0,3,SKx - Closing force,0.014883265508436194,clamp_force
+waste_vs_rest,clean rows,0,3,SKs - Clamping force peak value,0.02783606320368622,clamp_force
+waste_vs_rest,clean rows,0,3,Ms - Torque peak value current cycle,0.007856995285385375,plastification
+waste_vs_rest,clean rows,0,3,Mm - Torque mean value current cycle,0.020777280883812456,plastification
+waste_vs_rest,clean rows,0,3,APSs - Specific back pressure peak value,0.007749376402671588,melt_pressure
+waste_vs_rest,clean rows,0,3,APVs - Specific injection pressure peak value,0.11957863469560318,melt_pressure
+waste_vs_rest,clean rows,0,3,CPn - Screw position at the end of hold pressure,0.01622281055128407,screw_position
+waste_vs_rest,clean rows,0,3,SVo - Shot volume,0.02364199625704035,screw_position
+waste_vs_rest,clean rows,0,4,Melt temperature,0.02250138345746764,barrel_temperature
+waste_vs_rest,clean rows,0,4,Mold temperature,0.01515467951620005,mold_temperature
+waste_vs_rest,clean rows,0,4,time_to_fill,0.023891772404867624,phase_timing
+waste_vs_rest,clean rows,0,4,ZDx - Plasticizing time,0.06827483801233532,plastification
+waste_vs_rest,clean rows,0,4,ZUx - Cycle time,0.10979369338731751,phase_timing
+waste_vs_rest,clean rows,0,4,SKx - Closing force,0.009178414403652217,clamp_force
+waste_vs_rest,clean rows,0,4,SKs - Clamping force peak value,0.03220415340422118,clamp_force
+waste_vs_rest,clean rows,0,4,Ms - Torque peak value current cycle,0.008278261417797476,plastification
+waste_vs_rest,clean rows,0,4,Mm - Torque mean value current cycle,0.01704802075423192,plastification
+waste_vs_rest,clean rows,0,4,APSs - Specific back pressure peak value,0.01192178312485245,melt_pressure
+waste_vs_rest,clean rows,0,4,APVs - Specific injection pressure peak value,0.13224388065613885,melt_pressure
+waste_vs_rest,clean rows,0,4,CPn - Screw position at the end of hold pressure,0.02496754401019728,screw_position
+waste_vs_rest,clean rows,0,4,SVo - Shot volume,0.03648018917259606,screw_position
+waste_vs_rest,clean rows,1,0,Melt temperature,0.03333276933748178,barrel_temperature
+waste_vs_rest,clean rows,1,0,Mold temperature,0.018162921439622247,mold_temperature
+waste_vs_rest,clean rows,1,0,time_to_fill,0.021410117529720992,phase_timing
+waste_vs_rest,clean rows,1,0,ZDx - Plasticizing time,0.03125427257760881,plastification
+waste_vs_rest,clean rows,1,0,ZUx - Cycle time,0.09040618944677743,phase_timing
+waste_vs_rest,clean rows,1,0,SKx - Closing force,0.07210711679026513,clamp_force
+waste_vs_rest,clean rows,1,0,SKs - Clamping force peak value,0.04603053850365162,clamp_force
+waste_vs_rest,clean rows,1,0,Ms - Torque peak value current cycle,0.01309861026280436,plastification
+waste_vs_rest,clean rows,1,0,Mm - Torque mean value current cycle,0.032362898393187914,plastification
+waste_vs_rest,clean rows,1,0,APSs - Specific back pressure peak value,0.011003853848143378,melt_pressure
+waste_vs_rest,clean rows,1,0,APVs - Specific injection pressure peak value,0.16739142427402814,melt_pressure
+waste_vs_rest,clean rows,1,0,CPn - Screw position at the end of hold pressure,0.015978772533949644,screw_position
+waste_vs_rest,clean rows,1,0,SVo - Shot volume,0.014285650097601906,screw_position
+waste_vs_rest,clean rows,1,1,Melt temperature,0.03679599436357867,barrel_temperature
+waste_vs_rest,clean rows,1,1,Mold temperature,0.022174469101853604,mold_temperature
+waste_vs_rest,clean rows,1,1,time_to_fill,0.02914641040852603,phase_timing
+waste_vs_rest,clean rows,1,1,ZDx - Plasticizing time,0.021793775056689193,plastification
+waste_vs_rest,clean rows,1,1,ZUx - Cycle time,0.08522855774389088,phase_timing
+waste_vs_rest,clean rows,1,1,SKx - Closing force,0.05594915436592323,clamp_force
+waste_vs_rest,clean rows,1,1,SKs - Clamping force peak value,0.023515819177532867,clamp_force
+waste_vs_rest,clean rows,1,1,Ms - Torque peak value current cycle,0.013566682481598745,plastification
+waste_vs_rest,clean rows,1,1,Mm - Torque mean value current cycle,0.03480643855336664,plastification
+waste_vs_rest,clean rows,1,1,APSs - Specific back pressure peak value,0.014486359394864826,melt_pressure
+waste_vs_rest,clean rows,1,1,APVs - Specific injection pressure peak value,0.17990718692659302,melt_pressure
+waste_vs_rest,clean rows,1,1,CPn - Screw position at the end of hold pressure,0.019284850716520103,screw_position
+waste_vs_rest,clean rows,1,1,SVo - Shot volume,0.01488303405171132,screw_position
+waste_vs_rest,clean rows,1,2,Melt temperature,0.016746939538779836,barrel_temperature
+waste_vs_rest,clean rows,1,2,Mold temperature,0.015684153214085467,mold_temperature
+waste_vs_rest,clean rows,1,2,time_to_fill,0.03775111207141985,phase_timing
+waste_vs_rest,clean rows,1,2,ZDx - Plasticizing time,0.015272178481477985,plastification
+waste_vs_rest,clean rows,1,2,ZUx - Cycle time,0.16152282019864456,phase_timing
+waste_vs_rest,clean rows,1,2,SKx - Closing force,0.023864334444349156,clamp_force
+waste_vs_rest,clean rows,1,2,SKs - Clamping force peak value,0.0212556707325424,clamp_force
+waste_vs_rest,clean rows,1,2,Ms - Torque peak value current cycle,0.008962172555482373,plastification
+waste_vs_rest,clean rows,1,2,Mm - Torque mean value current cycle,0.018773653875328943,plastification
+waste_vs_rest,clean rows,1,2,APSs - Specific back pressure peak value,0.007383614787913722,melt_pressure
+waste_vs_rest,clean rows,1,2,APVs - Specific injection pressure peak value,0.16520022608870752,melt_pressure
+waste_vs_rest,clean rows,1,2,CPn - Screw position at the end of hold pressure,0.01951357460563318,screw_position
+waste_vs_rest,clean rows,1,2,SVo - Shot volume,0.003512475787638175,screw_position
+waste_vs_rest,clean rows,1,3,Melt temperature,0.019519833799151422,barrel_temperature
+waste_vs_rest,clean rows,1,3,Mold temperature,0.020859207761905963,mold_temperature
+waste_vs_rest,clean rows,1,3,time_to_fill,0.031549657291662,phase_timing
+waste_vs_rest,clean rows,1,3,ZDx - Plasticizing time,0.0760974402663096,plastification
+waste_vs_rest,clean rows,1,3,ZUx - Cycle time,0.11980140282727503,phase_timing
+waste_vs_rest,clean rows,1,3,SKx - Closing force,0.015889703837594343,clamp_force
+waste_vs_rest,clean rows,1,3,SKs - Clamping force peak value,0.024330393701977763,clamp_force
+waste_vs_rest,clean rows,1,3,Ms - Torque peak value current cycle,0.00784159278473406,plastification
+waste_vs_rest,clean rows,1,3,Mm - Torque mean value current cycle,0.019359366668498496,plastification
+waste_vs_rest,clean rows,1,3,APSs - Specific back pressure peak value,0.007089827069471299,melt_pressure
+waste_vs_rest,clean rows,1,3,APVs - Specific injection pressure peak value,0.11647566805448806,melt_pressure
+waste_vs_rest,clean rows,1,3,CPn - Screw position at the end of hold pressure,0.02071801080671437,screw_position
+waste_vs_rest,clean rows,1,3,SVo - Shot volume,0.024585343417879386,screw_position
+waste_vs_rest,clean rows,1,4,Melt temperature,0.02150024141326886,barrel_temperature
+waste_vs_rest,clean rows,1,4,Mold temperature,0.011722105310682648,mold_temperature
+waste_vs_rest,clean rows,1,4,time_to_fill,0.027739797686021226,phase_timing
+waste_vs_rest,clean rows,1,4,ZDx - Plasticizing time,0.061801352745969096,plastification
+waste_vs_rest,clean rows,1,4,ZUx - Cycle time,0.1250016706336026,phase_timing
+waste_vs_rest,clean rows,1,4,SKx - Closing force,0.010307250995974737,clamp_force
+waste_vs_rest,clean rows,1,4,SKs - Clamping force peak value,0.0367330122231513,clamp_force
+waste_vs_rest,clean rows,1,4,Ms - Torque peak value current cycle,0.009168405333110774,plastification
+waste_vs_rest,clean rows,1,4,Mm - Torque mean value current cycle,0.015238999262894513,plastification
+waste_vs_rest,clean rows,1,4,APSs - Specific back pressure peak value,0.009671076103844045,melt_pressure
+waste_vs_rest,clean rows,1,4,APVs - Specific injection pressure peak value,0.12178681148574898,melt_pressure
+waste_vs_rest,clean rows,1,4,CPn - Screw position at the end of hold pressure,0.025622959645417484,screw_position
+waste_vs_rest,clean rows,1,4,SVo - Shot volume,0.03725342585716853,screw_position
+waste_vs_rest,clean rows,2,0,Melt temperature,0.03934735897011435,barrel_temperature
+waste_vs_rest,clean rows,2,0,Mold temperature,0.017049355798131043,mold_temperature
+waste_vs_rest,clean rows,2,0,time_to_fill,0.02225835876392386,phase_timing
+waste_vs_rest,clean rows,2,0,ZDx - Plasticizing time,0.030682098545252674,plastification
+waste_vs_rest,clean rows,2,0,ZUx - Cycle time,0.08666099645238949,phase_timing
+waste_vs_rest,clean rows,2,0,SKx - Closing force,0.06541235352900893,clamp_force
+waste_vs_rest,clean rows,2,0,SKs - Clamping force peak value,0.040782674234288295,clamp_force
+waste_vs_rest,clean rows,2,0,Ms - Torque peak value current cycle,0.014629550623681882,plastification
+waste_vs_rest,clean rows,2,0,Mm - Torque mean value current cycle,0.032414989223579764,plastification
+waste_vs_rest,clean rows,2,0,APSs - Specific back pressure peak value,0.010224344605335521,melt_pressure
+waste_vs_rest,clean rows,2,0,APVs - Specific injection pressure peak value,0.17697616703605323,melt_pressure
+waste_vs_rest,clean rows,2,0,CPn - Screw position at the end of hold pressure,0.015504227901556275,screw_position
+waste_vs_rest,clean rows,2,0,SVo - Shot volume,0.012686182012945725,screw_position
+waste_vs_rest,clean rows,2,1,Melt temperature,0.03542612368224292,barrel_temperature
+waste_vs_rest,clean rows,2,1,Mold temperature,0.02204024154767056,mold_temperature
+waste_vs_rest,clean rows,2,1,time_to_fill,0.026749762102186693,phase_timing
+waste_vs_rest,clean rows,2,1,ZDx - Plasticizing time,0.02746589752503322,plastification
+waste_vs_rest,clean rows,2,1,ZUx - Cycle time,0.07965940934951346,phase_timing
+waste_vs_rest,clean rows,2,1,SKx - Closing force,0.051986064681349725,clamp_force
+waste_vs_rest,clean rows,2,1,SKs - Clamping force peak value,0.018623353825955355,clamp_force
+waste_vs_rest,clean rows,2,1,Ms - Torque peak value current cycle,0.014533205505390157,plastification
+waste_vs_rest,clean rows,2,1,Mm - Torque mean value current cycle,0.03103982392724271,plastification
+waste_vs_rest,clean rows,2,1,APSs - Specific back pressure peak value,0.011659073474501328,melt_pressure
+waste_vs_rest,clean rows,2,1,APVs - Specific injection pressure peak value,0.18106789110329183,melt_pressure
+waste_vs_rest,clean rows,2,1,CPn - Screw position at the end of hold pressure,0.020771592828781,screw_position
+waste_vs_rest,clean rows,2,1,SVo - Shot volume,0.015195491849589423,screw_position
+waste_vs_rest,clean rows,2,2,Melt temperature,0.014485003165779442,barrel_temperature
+waste_vs_rest,clean rows,2,2,Mold temperature,0.015805210700238975,mold_temperature
+waste_vs_rest,clean rows,2,2,time_to_fill,0.031040952815501215,phase_timing
+waste_vs_rest,clean rows,2,2,ZDx - Plasticizing time,0.01969525350260258,plastification
+waste_vs_rest,clean rows,2,2,ZUx - Cycle time,0.16012221366975737,phase_timing
+waste_vs_rest,clean rows,2,2,SKx - Closing force,0.024609804250656096,clamp_force
+waste_vs_rest,clean rows,2,2,SKs - Clamping force peak value,0.028671208635797474,clamp_force
+waste_vs_rest,clean rows,2,2,Ms - Torque peak value current cycle,0.009387224484307913,plastification
+waste_vs_rest,clean rows,2,2,Mm - Torque mean value current cycle,0.018600243995585016,plastification
+waste_vs_rest,clean rows,2,2,APSs - Specific back pressure peak value,0.008053600399990805,melt_pressure
+waste_vs_rest,clean rows,2,2,APVs - Specific injection pressure peak value,0.17137888808333193,melt_pressure
+waste_vs_rest,clean rows,2,2,CPn - Screw position at the end of hold pressure,0.01734228952499731,screw_position
+waste_vs_rest,clean rows,2,2,SVo - Shot volume,0.004499449716158044,screw_position
+waste_vs_rest,clean rows,2,3,Melt temperature,0.02016474356393023,barrel_temperature
+waste_vs_rest,clean rows,2,3,Mold temperature,0.02181743129430777,mold_temperature
+waste_vs_rest,clean rows,2,3,time_to_fill,0.036194751529179815,phase_timing
+waste_vs_rest,clean rows,2,3,ZDx - Plasticizing time,0.08466420386670748,plastification
+waste_vs_rest,clean rows,2,3,ZUx - Cycle time,0.10977077186236908,phase_timing
+waste_vs_rest,clean rows,2,3,SKx - Closing force,0.013709693569223575,clamp_force
+waste_vs_rest,clean rows,2,3,SKs - Clamping force peak value,0.025516228800758028,clamp_force
+waste_vs_rest,clean rows,2,3,Ms - Torque peak value current cycle,0.007889904959926959,plastification
+waste_vs_rest,clean rows,2,3,Mm - Torque mean value current cycle,0.017003178520705438,plastification
+waste_vs_rest,clean rows,2,3,APSs - Specific back pressure peak value,0.006792473543102612,melt_pressure
+waste_vs_rest,clean rows,2,3,APVs - Specific injection pressure peak value,0.12323396007546336,melt_pressure
+waste_vs_rest,clean rows,2,3,CPn - Screw position at the end of hold pressure,0.017932763692442653,screw_position
+waste_vs_rest,clean rows,2,3,SVo - Shot volume,0.021078520213475005,screw_position
+waste_vs_rest,clean rows,2,4,Melt temperature,0.025432182493852235,barrel_temperature
+waste_vs_rest,clean rows,2,4,Mold temperature,0.014836752944972062,mold_temperature
+waste_vs_rest,clean rows,2,4,time_to_fill,0.02431986933161961,phase_timing
+waste_vs_rest,clean rows,2,4,ZDx - Plasticizing time,0.0792636975003995,plastification
+waste_vs_rest,clean rows,2,4,ZUx - Cycle time,0.1130811915589046,phase_timing
+waste_vs_rest,clean rows,2,4,SKx - Closing force,0.009800778692784387,clamp_force
+waste_vs_rest,clean rows,2,4,SKs - Clamping force peak value,0.028682125079294647,clamp_force
+waste_vs_rest,clean rows,2,4,Ms - Torque peak value current cycle,0.008672808445489727,plastification
+waste_vs_rest,clean rows,2,4,Mm - Torque mean value current cycle,0.013551306861248544,plastification
+waste_vs_rest,clean rows,2,4,APSs - Specific back pressure peak value,0.012264367270420002,melt_pressure
+waste_vs_rest,clean rows,2,4,APVs - Specific injection pressure peak value,0.12417372050061555,melt_pressure
+waste_vs_rest,clean rows,2,4,CPn - Screw position at the end of hold pressure,0.025732032875001608,screw_position
+waste_vs_rest,clean rows,2,4,SVo - Shot volume,0.03191983622879641,screw_position
+waste_vs_rest,all rows,0,0,Melt temperature,0.01783541226832168,barrel_temperature
+waste_vs_rest,all rows,0,0,Mold temperature,0.014868083944772723,mold_temperature
+waste_vs_rest,all rows,0,0,time_to_fill,0.036992525822461715,phase_timing
+waste_vs_rest,all rows,0,0,ZDx - Plasticizing time,0.04235067677188578,plastification
+waste_vs_rest,all rows,0,0,ZUx - Cycle time,0.10335015634983666,phase_timing
+waste_vs_rest,all rows,0,0,SKx - Closing force,0.057076476401417324,clamp_force
+waste_vs_rest,all rows,0,0,SKs - Clamping force peak value,0.05456475421422878,clamp_force
+waste_vs_rest,all rows,0,0,Ms - Torque peak value current cycle,0.01237143550849589,plastification
+waste_vs_rest,all rows,0,0,Mm - Torque mean value current cycle,0.021900633707187613,plastification
+waste_vs_rest,all rows,0,0,APSs - Specific back pressure peak value,0.008070532072625035,melt_pressure
+waste_vs_rest,all rows,0,0,APVs - Specific injection pressure peak value,0.17771064061694444,melt_pressure
+waste_vs_rest,all rows,0,0,CPn - Screw position at the end of hold pressure,0.018351523875343057,screw_position
+waste_vs_rest,all rows,0,0,SVo - Shot volume,0.01442746704980782,screw_position
+waste_vs_rest,all rows,0,1,Melt temperature,0.01565271741446515,barrel_temperature
+waste_vs_rest,all rows,0,1,Mold temperature,0.01330418822592494,mold_temperature
+waste_vs_rest,all rows,0,1,time_to_fill,0.04240236987243942,phase_timing
+waste_vs_rest,all rows,0,1,ZDx - Plasticizing time,0.03706798620930338,plastification
+waste_vs_rest,all rows,0,1,ZUx - Cycle time,0.10323025258536975,phase_timing
+waste_vs_rest,all rows,0,1,SKx - Closing force,0.05519804874306615,clamp_force
+waste_vs_rest,all rows,0,1,SKs - Clamping force peak value,0.04456167403539268,clamp_force
+waste_vs_rest,all rows,0,1,Ms - Torque peak value current cycle,0.011378391095532715,plastification
+waste_vs_rest,all rows,0,1,Mm - Torque mean value current cycle,0.01996121579285389,plastification
+waste_vs_rest,all rows,0,1,APSs - Specific back pressure peak value,0.011292341558166427,melt_pressure
+waste_vs_rest,all rows,0,1,APVs - Specific injection pressure peak value,0.15867643230490783,melt_pressure
+waste_vs_rest,all rows,0,1,CPn - Screw position at the end of hold pressure,0.025777821404916065,screw_position
+waste_vs_rest,all rows,0,1,SVo - Shot volume,0.016551906224267138,screw_position
+waste_vs_rest,all rows,0,2,Melt temperature,0.007404532755920605,barrel_temperature
+waste_vs_rest,all rows,0,2,Mold temperature,0.01148161176770448,mold_temperature
+waste_vs_rest,all rows,0,2,time_to_fill,0.030727850910794646,phase_timing
+waste_vs_rest,all rows,0,2,ZDx - Plasticizing time,0.021660133075791437,plastification
+waste_vs_rest,all rows,0,2,ZUx - Cycle time,0.21476996989144928,phase_timing
+waste_vs_rest,all rows,0,2,SKx - Closing force,0.021356336023640492,clamp_force
+waste_vs_rest,all rows,0,2,SKs - Clamping force peak value,0.032315663793651916,clamp_force
+waste_vs_rest,all rows,0,2,Ms - Torque peak value current cycle,0.006003233119169618,plastification
+waste_vs_rest,all rows,0,2,Mm - Torque mean value current cycle,0.012907935401221714,plastification
+waste_vs_rest,all rows,0,2,APSs - Specific back pressure peak value,0.009992818131207329,melt_pressure
+waste_vs_rest,all rows,0,2,APVs - Specific injection pressure peak value,0.12983973176776048,melt_pressure
+waste_vs_rest,all rows,0,2,CPn - Screw position at the end of hold pressure,0.009112200499884515,screw_position
+waste_vs_rest,all rows,0,2,SVo - Shot volume,0.00490330602408019,screw_position
+waste_vs_rest,all rows,0,3,Melt temperature,0.011316482640003105,barrel_temperature
+waste_vs_rest,all rows,0,3,Mold temperature,0.016813426942965747,mold_temperature
+waste_vs_rest,all rows,0,3,time_to_fill,0.042280876159139155,phase_timing
+waste_vs_rest,all rows,0,3,ZDx - Plasticizing time,0.05178271268206051,plastification
+waste_vs_rest,all rows,0,3,ZUx - Cycle time,0.1508429727551384,phase_timing
+waste_vs_rest,all rows,0,3,SKx - Closing force,0.022281522614648778,clamp_force
+waste_vs_rest,all rows,0,3,SKs - Clamping force peak value,0.029399855240148917,clamp_force
+waste_vs_rest,all rows,0,3,Ms - Torque peak value current cycle,0.006765942397443673,plastification
+waste_vs_rest,all rows,0,3,Mm - Torque mean value current cycle,0.013394842302368828,plastification
+waste_vs_rest,all rows,0,3,APSs - Specific back pressure peak value,0.007481513359573697,melt_pressure
+waste_vs_rest,all rows,0,3,APVs - Specific injection pressure peak value,0.10436898916558962,melt_pressure
+waste_vs_rest,all rows,0,3,CPn - Screw position at the end of hold pressure,0.026153655353733624,screw_position
+waste_vs_rest,all rows,0,3,SVo - Shot volume,0.01969400086318771,screw_position
+waste_vs_rest,all rows,0,4,Melt temperature,0.01593943628690589,barrel_temperature
+waste_vs_rest,all rows,0,4,Mold temperature,0.020665257016770248,mold_temperature
+waste_vs_rest,all rows,0,4,time_to_fill,0.029395053658350895,phase_timing
+waste_vs_rest,all rows,0,4,ZDx - Plasticizing time,0.06251509853165998,plastification
+waste_vs_rest,all rows,0,4,ZUx - Cycle time,0.12381932200041725,phase_timing
+waste_vs_rest,all rows,0,4,SKx - Closing force,0.026644378988988263,clamp_force
+waste_vs_rest,all rows,0,4,SKs - Clamping force peak value,0.03474463233055772,clamp_force
+waste_vs_rest,all rows,0,4,Ms - Torque peak value current cycle,0.008881266816846107,plastification
+waste_vs_rest,all rows,0,4,Mm - Torque mean value current cycle,0.007283845225582867,plastification
+waste_vs_rest,all rows,0,4,APSs - Specific back pressure peak value,0.010733027430388621,melt_pressure
+waste_vs_rest,all rows,0,4,APVs - Specific injection pressure peak value,0.10148074317353706,melt_pressure
+waste_vs_rest,all rows,0,4,CPn - Screw position at the end of hold pressure,0.027712062960257553,screw_position
+waste_vs_rest,all rows,0,4,SVo - Shot volume,0.02602932657103152,screw_position
+waste_vs_rest,all rows,1,0,Melt temperature,0.01945096644983699,barrel_temperature
+waste_vs_rest,all rows,1,0,Mold temperature,0.010273413078227708,mold_temperature
+waste_vs_rest,all rows,1,0,time_to_fill,0.03769535233206774,phase_timing
+waste_vs_rest,all rows,1,0,ZDx - Plasticizing time,0.03317841671670182,plastification
+waste_vs_rest,all rows,1,0,ZUx - Cycle time,0.104126130148166,phase_timing
+waste_vs_rest,all rows,1,0,SKx - Closing force,0.06482150154753019,clamp_force
+waste_vs_rest,all rows,1,0,SKs - Clamping force peak value,0.05928717337183052,clamp_force
+waste_vs_rest,all rows,1,0,Ms - Torque peak value current cycle,0.01037850693468245,plastification
+waste_vs_rest,all rows,1,0,Mm - Torque mean value current cycle,0.02189854512989733,plastification
+waste_vs_rest,all rows,1,0,APSs - Specific back pressure peak value,0.009750528154165976,melt_pressure
+waste_vs_rest,all rows,1,0,APVs - Specific injection pressure peak value,0.17877294445370143,melt_pressure
+waste_vs_rest,all rows,1,0,CPn - Screw position at the end of hold pressure,0.019869704760733877,screw_position
+waste_vs_rest,all rows,1,0,SVo - Shot volume,0.012490153437737118,screw_position
+waste_vs_rest,all rows,1,1,Melt temperature,0.018784284924835973,barrel_temperature
+waste_vs_rest,all rows,1,1,Mold temperature,0.012361850707451588,mold_temperature
+waste_vs_rest,all rows,1,1,time_to_fill,0.044468105585961766,phase_timing
+waste_vs_rest,all rows,1,1,ZDx - Plasticizing time,0.02811262387379626,plastification
+waste_vs_rest,all rows,1,1,ZUx - Cycle time,0.10603590277589547,phase_timing
+waste_vs_rest,all rows,1,1,SKx - Closing force,0.055375054110417626,clamp_force
+waste_vs_rest,all rows,1,1,SKs - Clamping force peak value,0.050021230472228354,clamp_force
+waste_vs_rest,all rows,1,1,Ms - Torque peak value current cycle,0.01169086255827227,plastification
+waste_vs_rest,all rows,1,1,Mm - Torque mean value current cycle,0.016545785754482782,plastification
+waste_vs_rest,all rows,1,1,APSs - Specific back pressure peak value,0.012872508373973949,melt_pressure
+waste_vs_rest,all rows,1,1,APVs - Specific injection pressure peak value,0.15575748605722398,melt_pressure
+waste_vs_rest,all rows,1,1,CPn - Screw position at the end of hold pressure,0.02872495851111561,screw_position
+waste_vs_rest,all rows,1,1,SVo - Shot volume,0.017610618387692716,screw_position
+waste_vs_rest,all rows,1,2,Melt temperature,0.0070918571592805115,barrel_temperature
+waste_vs_rest,all rows,1,2,Mold temperature,0.007826459200887967,mold_temperature
+waste_vs_rest,all rows,1,2,time_to_fill,0.02143892783298557,phase_timing
+waste_vs_rest,all rows,1,2,ZDx - Plasticizing time,0.017649294616974596,plastification
+waste_vs_rest,all rows,1,2,ZUx - Cycle time,0.2013280230630376,phase_timing
+waste_vs_rest,all rows,1,2,SKx - Closing force,0.02314671537837124,clamp_force
+waste_vs_rest,all rows,1,2,SKs - Clamping force peak value,0.034713266952915656,clamp_force
+waste_vs_rest,all rows,1,2,Ms - Torque peak value current cycle,0.006634640460552169,plastification
+waste_vs_rest,all rows,1,2,Mm - Torque mean value current cycle,0.013790764331751708,plastification
+waste_vs_rest,all rows,1,2,APSs - Specific back pressure peak value,0.010948615824560434,melt_pressure
+waste_vs_rest,all rows,1,2,APVs - Specific injection pressure peak value,0.15535629781306856,melt_pressure
+waste_vs_rest,all rows,1,2,CPn - Screw position at the end of hold pressure,0.011711025422891099,screw_position
+waste_vs_rest,all rows,1,2,SVo - Shot volume,0.006460949985557844,screw_position
+waste_vs_rest,all rows,1,3,Melt temperature,0.010609882945207788,barrel_temperature
+waste_vs_rest,all rows,1,3,Mold temperature,0.014839971778274074,mold_temperature
+waste_vs_rest,all rows,1,3,time_to_fill,0.04552576218259408,phase_timing
+waste_vs_rest,all rows,1,3,ZDx - Plasticizing time,0.04756599126091544,plastification
+waste_vs_rest,all rows,1,3,ZUx - Cycle time,0.1432930760012207,phase_timing
+waste_vs_rest,all rows,1,3,SKx - Closing force,0.022206882406033714,clamp_force
+waste_vs_rest,all rows,1,3,SKs - Clamping force peak value,0.031810747323258205,clamp_force
+waste_vs_rest,all rows,1,3,Ms - Torque peak value current cycle,0.006363064111385011,plastification
+waste_vs_rest,all rows,1,3,Mm - Torque mean value current cycle,0.012303332905714255,plastification
+waste_vs_rest,all rows,1,3,APSs - Specific back pressure peak value,0.009424169246166195,melt_pressure
+waste_vs_rest,all rows,1,3,APVs - Specific injection pressure peak value,0.11272931770077164,melt_pressure
+waste_vs_rest,all rows,1,3,CPn - Screw position at the end of hold pressure,0.02551986852172722,screw_position
+waste_vs_rest,all rows,1,3,SVo - Shot volume,0.020688782524293462,screw_position
+waste_vs_rest,all rows,1,4,Melt temperature,0.01454987871628867,barrel_temperature
+waste_vs_rest,all rows,1,4,Mold temperature,0.02064119398412528,mold_temperature
+waste_vs_rest,all rows,1,4,time_to_fill,0.03787612935905195,phase_timing
+waste_vs_rest,all rows,1,4,ZDx - Plasticizing time,0.058050777717135925,plastification
+waste_vs_rest,all rows,1,4,ZUx - Cycle time,0.11804431480190862,phase_timing
+waste_vs_rest,all rows,1,4,SKx - Closing force,0.024932453340516716,clamp_force
+waste_vs_rest,all rows,1,4,SKs - Clamping force peak value,0.03149002196972841,clamp_force
+waste_vs_rest,all rows,1,4,Ms - Torque peak value current cycle,0.010454467503506839,plastification
+waste_vs_rest,all rows,1,4,Mm - Torque mean value current cycle,0.007255897638234071,plastification
+waste_vs_rest,all rows,1,4,APSs - Specific back pressure peak value,0.011229427541712488,melt_pressure
+waste_vs_rest,all rows,1,4,APVs - Specific injection pressure peak value,0.10566013479010515,melt_pressure
+waste_vs_rest,all rows,1,4,CPn - Screw position at the end of hold pressure,0.03174468545756929,screw_position
+waste_vs_rest,all rows,1,4,SVo - Shot volume,0.024021960679565694,screw_position
+waste_vs_rest,all rows,2,0,Melt temperature,0.01714496736074605,barrel_temperature
+waste_vs_rest,all rows,2,0,Mold temperature,0.013712469933882063,mold_temperature
+waste_vs_rest,all rows,2,0,time_to_fill,0.04057632967497197,phase_timing
+waste_vs_rest,all rows,2,0,ZDx - Plasticizing time,0.04722408346012297,plastification
+waste_vs_rest,all rows,2,0,ZUx - Cycle time,0.10376292657442529,phase_timing
+waste_vs_rest,all rows,2,0,SKx - Closing force,0.05708735691313848,clamp_force
+waste_vs_rest,all rows,2,0,SKs - Clamping force peak value,0.0543739434760151,clamp_force
+waste_vs_rest,all rows,2,0,Ms - Torque peak value current cycle,0.012366044519677408,plastification
+waste_vs_rest,all rows,2,0,Mm - Torque mean value current cycle,0.02113269679146343,plastification
+waste_vs_rest,all rows,2,0,APSs - Specific back pressure peak value,0.009065404327116411,melt_pressure
+waste_vs_rest,all rows,2,0,APVs - Specific injection pressure peak value,0.17263987987495033,melt_pressure
+waste_vs_rest,all rows,2,0,CPn - Screw position at the end of hold pressure,0.021883869738770715,screw_position
+waste_vs_rest,all rows,2,0,SVo - Shot volume,0.01163606240816819,screw_position
+waste_vs_rest,all rows,2,1,Melt temperature,0.016752622745031583,barrel_temperature
+waste_vs_rest,all rows,2,1,Mold temperature,0.013135132109110948,mold_temperature
+waste_vs_rest,all rows,2,1,time_to_fill,0.04290558303890715,phase_timing
+waste_vs_rest,all rows,2,1,ZDx - Plasticizing time,0.0385548363547168,plastification
+waste_vs_rest,all rows,2,1,ZUx - Cycle time,0.09383069173641458,phase_timing
+waste_vs_rest,all rows,2,1,SKx - Closing force,0.04481014314510145,clamp_force
+waste_vs_rest,all rows,2,1,SKs - Clamping force peak value,0.045701905013563617,clamp_force
+waste_vs_rest,all rows,2,1,Ms - Torque peak value current cycle,0.0076795508847438574,plastification
+waste_vs_rest,all rows,2,1,Mm - Torque mean value current cycle,0.018630577079066825,plastification
+waste_vs_rest,all rows,2,1,APSs - Specific back pressure peak value,0.012079554569843795,melt_pressure
+waste_vs_rest,all rows,2,1,APVs - Specific injection pressure peak value,0.16599342918177204,melt_pressure
+waste_vs_rest,all rows,2,1,CPn - Screw position at the end of hold pressure,0.0311660021826383,screw_position
+waste_vs_rest,all rows,2,1,SVo - Shot volume,0.015770629876541414,screw_position
+waste_vs_rest,all rows,2,2,Melt temperature,0.00995959241300742,barrel_temperature
+waste_vs_rest,all rows,2,2,Mold temperature,0.00978296219523739,mold_temperature
+waste_vs_rest,all rows,2,2,time_to_fill,0.03221506033641003,phase_timing
+waste_vs_rest,all rows,2,2,ZDx - Plasticizing time,0.02147003539835969,plastification
+waste_vs_rest,all rows,2,2,ZUx - Cycle time,0.1758223761295296,phase_timing
+waste_vs_rest,all rows,2,2,SKx - Closing force,0.02249882685323187,clamp_force
+waste_vs_rest,all rows,2,2,SKs - Clamping force peak value,0.03945334224069744,clamp_force
+waste_vs_rest,all rows,2,2,Ms - Torque peak value current cycle,0.006457420835273243,plastification
+waste_vs_rest,all rows,2,2,Mm - Torque mean value current cycle,0.011492370470027038,plastification
+waste_vs_rest,all rows,2,2,APSs - Specific back pressure peak value,0.010626727019122388,melt_pressure
+waste_vs_rest,all rows,2,2,APVs - Specific injection pressure peak value,0.15519001024513573,melt_pressure
+waste_vs_rest,all rows,2,2,CPn - Screw position at the end of hold pressure,0.011098225847650819,screw_position
+waste_vs_rest,all rows,2,2,SVo - Shot volume,0.006301287801943784,screw_position
+waste_vs_rest,all rows,2,3,Melt temperature,0.012834834573702623,barrel_temperature
+waste_vs_rest,all rows,2,3,Mold temperature,0.017586885996497915,mold_temperature
+waste_vs_rest,all rows,2,3,time_to_fill,0.04821658441651567,phase_timing
+waste_vs_rest,all rows,2,3,ZDx - Plasticizing time,0.05849705884329612,plastification
+waste_vs_rest,all rows,2,3,ZUx - Cycle time,0.12290188529209324,phase_timing
+waste_vs_rest,all rows,2,3,SKx - Closing force,0.01988610854159184,clamp_force
+waste_vs_rest,all rows,2,3,SKs - Clamping force peak value,0.03045073983981739,clamp_force
+waste_vs_rest,all rows,2,3,Ms - Torque peak value current cycle,0.00470414608474719,plastification
+waste_vs_rest,all rows,2,3,Mm - Torque mean value current cycle,0.012538780819287132,plastification
+waste_vs_rest,all rows,2,3,APSs - Specific back pressure peak value,0.010091933550490257,melt_pressure
+waste_vs_rest,all rows,2,3,APVs - Specific injection pressure peak value,0.11626624214279335,melt_pressure
+waste_vs_rest,all rows,2,3,CPn - Screw position at the end of hold pressure,0.02832296784609137,screw_position
+waste_vs_rest,all rows,2,3,SVo - Shot volume,0.01976638395399908,screw_position
+waste_vs_rest,all rows,2,4,Melt temperature,0.015412540817984498,barrel_temperature
+waste_vs_rest,all rows,2,4,Mold temperature,0.018996395932825306,mold_temperature
+waste_vs_rest,all rows,2,4,time_to_fill,0.03732039827341867,phase_timing
+waste_vs_rest,all rows,2,4,ZDx - Plasticizing time,0.06830128988781374,plastification
+waste_vs_rest,all rows,2,4,ZUx - Cycle time,0.1022310337411347,phase_timing
+waste_vs_rest,all rows,2,4,SKx - Closing force,0.023267583179100493,clamp_force
+waste_vs_rest,all rows,2,4,SKs - Clamping force peak value,0.030500149512702475,clamp_force
+waste_vs_rest,all rows,2,4,Ms - Torque peak value current cycle,0.008260722220491519,plastification
+waste_vs_rest,all rows,2,4,Mm - Torque mean value current cycle,0.00754734519096683,plastification
+waste_vs_rest,all rows,2,4,APSs - Specific back pressure peak value,0.013386569915390811,melt_pressure
+waste_vs_rest,all rows,2,4,APVs - Specific injection pressure peak value,0.11182758379401031,melt_pressure
+waste_vs_rest,all rows,2,4,CPn - Screw position at the end of hold pressure,0.03297349503259328,screw_position
+waste_vs_rest,all rows,2,4,SVo - Shot volume,0.02507454978289451,screw_position
+4_class,clean rows,0,0,Melt temperature,0.021999768430744245,barrel_temperature
+4_class,clean rows,0,0,Mold temperature,0.032656764069506676,mold_temperature
+4_class,clean rows,0,0,time_to_fill,0.04824571289063505,phase_timing
+4_class,clean rows,0,0,ZDx - Plasticizing time,0.06910917383781798,plastification
+4_class,clean rows,0,0,ZUx - Cycle time,0.09826570754791177,phase_timing
+4_class,clean rows,0,0,SKx - Closing force,0.03840068551485129,clamp_force
+4_class,clean rows,0,0,SKs - Clamping force peak value,0.022577205049301947,clamp_force
+4_class,clean rows,0,0,Ms - Torque peak value current cycle,0.0037303777397782413,plastification
+4_class,clean rows,0,0,Mm - Torque mean value current cycle,0.006680300897486999,plastification
+4_class,clean rows,0,0,APSs - Specific back pressure peak value,0.004215302158491524,melt_pressure
+4_class,clean rows,0,0,APVs - Specific injection pressure peak value,0.044632653257645705,melt_pressure
+4_class,clean rows,0,0,CPn - Screw position at the end of hold pressure,0.010572543720336941,screw_position
+4_class,clean rows,0,0,SVo - Shot volume,0.011020581819301118,screw_position
+4_class,clean rows,0,1,Melt temperature,0.0248182593554076,barrel_temperature
+4_class,clean rows,0,1,Mold temperature,0.03284469288012801,mold_temperature
+4_class,clean rows,0,1,time_to_fill,0.04250041866759566,phase_timing
+4_class,clean rows,0,1,ZDx - Plasticizing time,0.0643581791649867,plastification
+4_class,clean rows,0,1,ZUx - Cycle time,0.09781354696356098,phase_timing
+4_class,clean rows,0,1,SKx - Closing force,0.03824474243325677,clamp_force
+4_class,clean rows,0,1,SKs - Clamping force peak value,0.022218895662027775,clamp_force
+4_class,clean rows,0,1,Ms - Torque peak value current cycle,0.004291447938202601,plastification
+4_class,clean rows,0,1,Mm - Torque mean value current cycle,0.008990219922993928,plastification
+4_class,clean rows,0,1,APSs - Specific back pressure peak value,0.004454593329272471,melt_pressure
+4_class,clean rows,0,1,APVs - Specific injection pressure peak value,0.04568723102708269,melt_pressure
+4_class,clean rows,0,1,CPn - Screw position at the end of hold pressure,0.010578413324257099,screw_position
+4_class,clean rows,0,1,SVo - Shot volume,0.012366768456247283,screw_position
+4_class,clean rows,0,2,Melt temperature,0.019142199171765684,barrel_temperature
+4_class,clean rows,0,2,Mold temperature,0.03042723746453452,mold_temperature
+4_class,clean rows,0,2,time_to_fill,0.04844320663489417,phase_timing
+4_class,clean rows,0,2,ZDx - Plasticizing time,0.0736339362633742,plastification
+4_class,clean rows,0,2,ZUx - Cycle time,0.09715779577733459,phase_timing
+4_class,clean rows,0,2,SKx - Closing force,0.039076810468228376,clamp_force
+4_class,clean rows,0,2,SKs - Clamping force peak value,0.02057355453945226,clamp_force
+4_class,clean rows,0,2,Ms - Torque peak value current cycle,0.004630780790632131,plastification
+4_class,clean rows,0,2,Mm - Torque mean value current cycle,0.006369507274028778,plastification
+4_class,clean rows,0,2,APSs - Specific back pressure peak value,0.004468099813728232,melt_pressure
+4_class,clean rows,0,2,APVs - Specific injection pressure peak value,0.04382717557636987,melt_pressure
+4_class,clean rows,0,2,CPn - Screw position at the end of hold pressure,0.009883104848619324,screw_position
+4_class,clean rows,0,2,SVo - Shot volume,0.011568936892936248,screw_position
+4_class,clean rows,0,3,Melt temperature,0.02144942204179786,barrel_temperature
+4_class,clean rows,0,3,Mold temperature,0.028393999546852046,mold_temperature
+4_class,clean rows,0,3,time_to_fill,0.0472140820536374,phase_timing
+4_class,clean rows,0,3,ZDx - Plasticizing time,0.06992724356938863,plastification
+4_class,clean rows,0,3,ZUx - Cycle time,0.10284017951683988,phase_timing
+4_class,clean rows,0,3,SKx - Closing force,0.03613845290032773,clamp_force
+4_class,clean rows,0,3,SKs - Clamping force peak value,0.0203185884420384,clamp_force
+4_class,clean rows,0,3,Ms - Torque peak value current cycle,0.003681056221696479,plastification
+4_class,clean rows,0,3,Mm - Torque mean value current cycle,0.007949004562353595,plastification
+4_class,clean rows,0,3,APSs - Specific back pressure peak value,0.003384359982870255,melt_pressure
+4_class,clean rows,0,3,APVs - Specific injection pressure peak value,0.047596027757603715,melt_pressure
+4_class,clean rows,0,3,CPn - Screw position at the end of hold pressure,0.008144866542634452,screw_position
+4_class,clean rows,0,3,SVo - Shot volume,0.009926933347554526,screw_position
+4_class,clean rows,0,4,Melt temperature,0.026870210297434624,barrel_temperature
+4_class,clean rows,0,4,Mold temperature,0.038295039366840075,mold_temperature
+4_class,clean rows,0,4,time_to_fill,0.04780050673444172,phase_timing
+4_class,clean rows,0,4,ZDx - Plasticizing time,0.0893810621071284,plastification
+4_class,clean rows,0,4,ZUx - Cycle time,0.09644822982948531,phase_timing
+4_class,clean rows,0,4,SKx - Closing force,0.03487341709026043,clamp_force
+4_class,clean rows,0,4,SKs - Clamping force peak value,0.01928164959109495,clamp_force
+4_class,clean rows,0,4,Ms - Torque peak value current cycle,0.0027809019415663337,plastification
+4_class,clean rows,0,4,Mm - Torque mean value current cycle,0.005708486066078007,plastification
+4_class,clean rows,0,4,APSs - Specific back pressure peak value,0.004372768428179641,melt_pressure
+4_class,clean rows,0,4,APVs - Specific injection pressure peak value,0.04631453104931891,melt_pressure
+4_class,clean rows,0,4,CPn - Screw position at the end of hold pressure,0.011021950103048381,screw_position
+4_class,clean rows,0,4,SVo - Shot volume,0.012501005154268986,screw_position
+4_class,clean rows,1,0,Melt temperature,0.026480145406575333,barrel_temperature
+4_class,clean rows,1,0,Mold temperature,0.02990148048041144,mold_temperature
+4_class,clean rows,1,0,time_to_fill,0.054147686771846115,phase_timing
+4_class,clean rows,1,0,ZDx - Plasticizing time,0.06385463943480513,plastification
+4_class,clean rows,1,0,ZUx - Cycle time,0.10132695230204167,phase_timing
+4_class,clean rows,1,0,SKx - Closing force,0.036272561463597294,clamp_force
+4_class,clean rows,1,0,SKs - Clamping force peak value,0.029960864346245748,clamp_force
+4_class,clean rows,1,0,Ms - Torque peak value current cycle,0.004000912492504649,plastification
+4_class,clean rows,1,0,Mm - Torque mean value current cycle,0.007704801942567253,plastification
+4_class,clean rows,1,0,APSs - Specific back pressure peak value,0.003945586450106391,melt_pressure
+4_class,clean rows,1,0,APVs - Specific injection pressure peak value,0.04169492502629828,melt_pressure
+4_class,clean rows,1,0,CPn - Screw position at the end of hold pressure,0.010547967156715072,screw_position
+4_class,clean rows,1,0,SVo - Shot volume,0.010777830547662706,screw_position
+4_class,clean rows,1,1,Melt temperature,0.03345716517475218,barrel_temperature
+4_class,clean rows,1,1,Mold temperature,0.027860584281843397,mold_temperature
+4_class,clean rows,1,1,time_to_fill,0.049086295959586614,phase_timing
+4_class,clean rows,1,1,ZDx - Plasticizing time,0.057970085874941166,plastification
+4_class,clean rows,1,1,ZUx - Cycle time,0.10574850504013836,phase_timing
+4_class,clean rows,1,1,SKx - Closing force,0.03509947559224028,clamp_force
+4_class,clean rows,1,1,SKs - Clamping force peak value,0.023509676458321964,clamp_force
+4_class,clean rows,1,1,Ms - Torque peak value current cycle,0.003606287141196049,plastification
+4_class,clean rows,1,1,Mm - Torque mean value current cycle,0.008565699681243233,plastification
+4_class,clean rows,1,1,APSs - Specific back pressure peak value,0.004180647552336967,melt_pressure
+4_class,clean rows,1,1,APVs - Specific injection pressure peak value,0.045356103315238906,melt_pressure
+4_class,clean rows,1,1,CPn - Screw position at the end of hold pressure,0.010969141838616824,screw_position
+4_class,clean rows,1,1,SVo - Shot volume,0.010898094905742454,screw_position
+4_class,clean rows,1,2,Melt temperature,0.0261455914180651,barrel_temperature
+4_class,clean rows,1,2,Mold temperature,0.031183369060930888,mold_temperature
+4_class,clean rows,1,2,time_to_fill,0.04809615062151061,phase_timing
+4_class,clean rows,1,2,ZDx - Plasticizing time,0.05942702981905,plastification
+4_class,clean rows,1,2,ZUx - Cycle time,0.10294195580335103,phase_timing
+4_class,clean rows,1,2,SKx - Closing force,0.03743185854808484,clamp_force
+4_class,clean rows,1,2,SKs - Clamping force peak value,0.026075614359914047,clamp_force
+4_class,clean rows,1,2,Ms - Torque peak value current cycle,0.004247574906794996,plastification
+4_class,clean rows,1,2,Mm - Torque mean value current cycle,0.007074952548343472,plastification
+4_class,clean rows,1,2,APSs - Specific back pressure peak value,0.004065677118114239,melt_pressure
+4_class,clean rows,1,2,APVs - Specific injection pressure peak value,0.04264964791095666,melt_pressure
+4_class,clean rows,1,2,CPn - Screw position at the end of hold pressure,0.011466250271688034,screw_position
+4_class,clean rows,1,2,SVo - Shot volume,0.01189115351824755,screw_position
+4_class,clean rows,1,3,Melt temperature,0.0260852677667286,barrel_temperature
+4_class,clean rows,1,3,Mold temperature,0.028547393315457373,mold_temperature
+4_class,clean rows,1,3,time_to_fill,0.05013687498456539,phase_timing
+4_class,clean rows,1,3,ZDx - Plasticizing time,0.062166189996411804,plastification
+4_class,clean rows,1,3,ZUx - Cycle time,0.10412103303126159,phase_timing
+4_class,clean rows,1,3,SKx - Closing force,0.035563216647574655,clamp_force
+4_class,clean rows,1,3,SKs - Clamping force peak value,0.024252751048124306,clamp_force
+4_class,clean rows,1,3,Ms - Torque peak value current cycle,0.0033238867107400058,plastification
+4_class,clean rows,1,3,Mm - Torque mean value current cycle,0.007175508913052604,plastification
+4_class,clean rows,1,3,APSs - Specific back pressure peak value,0.003508156451273805,melt_pressure
+4_class,clean rows,1,3,APVs - Specific injection pressure peak value,0.04625517391047961,melt_pressure
+4_class,clean rows,1,3,CPn - Screw position at the end of hold pressure,0.008167773215850152,screw_position
+4_class,clean rows,1,3,SVo - Shot volume,0.011271908605072102,screw_position
+4_class,clean rows,1,4,Melt temperature,0.0319912223950434,barrel_temperature
+4_class,clean rows,1,4,Mold temperature,0.03392801768443456,mold_temperature
+4_class,clean rows,1,4,time_to_fill,0.05525280139506816,phase_timing
+4_class,clean rows,1,4,ZDx - Plasticizing time,0.07439094472027324,plastification
+4_class,clean rows,1,4,ZUx - Cycle time,0.10080367609253886,phase_timing
+4_class,clean rows,1,4,SKx - Closing force,0.03793070514688344,clamp_force
+4_class,clean rows,1,4,SKs - Clamping force peak value,0.017470084935539476,clamp_force
+4_class,clean rows,1,4,Ms - Torque peak value current cycle,0.0024790370560723303,plastification
+4_class,clean rows,1,4,Mm - Torque mean value current cycle,0.00584540674144097,plastification
+4_class,clean rows,1,4,APSs - Specific back pressure peak value,0.004781755313251811,melt_pressure
+4_class,clean rows,1,4,APVs - Specific injection pressure peak value,0.045021397260535154,melt_pressure
+4_class,clean rows,1,4,CPn - Screw position at the end of hold pressure,0.011414859467007401,screw_position
+4_class,clean rows,1,4,SVo - Shot volume,0.011710177533709577,screw_position
+4_class,clean rows,2,0,Melt temperature,0.024696116797421407,barrel_temperature
+4_class,clean rows,2,0,Mold temperature,0.02616094879045827,mold_temperature
+4_class,clean rows,2,0,time_to_fill,0.04584751084292707,phase_timing
+4_class,clean rows,2,0,ZDx - Plasticizing time,0.07092813304951526,plastification
+4_class,clean rows,2,0,ZUx - Cycle time,0.1034124870788477,phase_timing
+4_class,clean rows,2,0,SKx - Closing force,0.03282733702846364,clamp_force
+4_class,clean rows,2,0,SKs - Clamping force peak value,0.029578259652840874,clamp_force
+4_class,clean rows,2,0,Ms - Torque peak value current cycle,0.0036996038032097375,plastification
+4_class,clean rows,2,0,Mm - Torque mean value current cycle,0.006519003646665604,plastification
+4_class,clean rows,2,0,APSs - Specific back pressure peak value,0.00409318426998328,melt_pressure
+4_class,clean rows,2,0,APVs - Specific injection pressure peak value,0.04547642415874253,melt_pressure
+4_class,clean rows,2,0,CPn - Screw position at the end of hold pressure,0.010544299960247243,screw_position
+4_class,clean rows,2,0,SVo - Shot volume,0.009203392016678533,screw_position
+4_class,clean rows,2,1,Melt temperature,0.024860136298770943,barrel_temperature
+4_class,clean rows,2,1,Mold temperature,0.025041443777893732,mold_temperature
+4_class,clean rows,2,1,time_to_fill,0.042603979902422644,phase_timing
+4_class,clean rows,2,1,ZDx - Plasticizing time,0.07105811170982407,plastification
+4_class,clean rows,2,1,ZUx - Cycle time,0.10859697628730978,phase_timing
+4_class,clean rows,2,1,SKx - Closing force,0.03219433320768684,clamp_force
+4_class,clean rows,2,1,SKs - Clamping force peak value,0.019865541280941777,clamp_force
+4_class,clean rows,2,1,Ms - Torque peak value current cycle,0.0037806728674935524,plastification
+4_class,clean rows,2,1,Mm - Torque mean value current cycle,0.008455857145192128,plastification
+4_class,clean rows,2,1,APSs - Specific back pressure peak value,0.004622461479998724,melt_pressure
+4_class,clean rows,2,1,APVs - Specific injection pressure peak value,0.04669712927225935,melt_pressure
+4_class,clean rows,2,1,CPn - Screw position at the end of hold pressure,0.010050704637808168,screw_position
+4_class,clean rows,2,1,SVo - Shot volume,0.012609939120861844,screw_position
+4_class,clean rows,2,2,Melt temperature,0.025617713415679057,barrel_temperature
+4_class,clean rows,2,2,Mold temperature,0.025549180219774023,mold_temperature
+4_class,clean rows,2,2,time_to_fill,0.04394161623892865,phase_timing
+4_class,clean rows,2,2,ZDx - Plasticizing time,0.07465184042246768,plastification
+4_class,clean rows,2,2,ZUx - Cycle time,0.10222239982937364,phase_timing
+4_class,clean rows,2,2,SKx - Closing force,0.03490167753957656,clamp_force
+4_class,clean rows,2,2,SKs - Clamping force peak value,0.023050490574580217,clamp_force
+4_class,clean rows,2,2,Ms - Torque peak value current cycle,0.003975250444697601,plastification
+4_class,clean rows,2,2,Mm - Torque mean value current cycle,0.0066924369539615985,plastification
+4_class,clean rows,2,2,APSs - Specific back pressure peak value,0.003902907729794068,melt_pressure
+4_class,clean rows,2,2,APVs - Specific injection pressure peak value,0.043928772304109465,melt_pressure
+4_class,clean rows,2,2,CPn - Screw position at the end of hold pressure,0.012245452752319934,screw_position
+4_class,clean rows,2,2,SVo - Shot volume,0.010347453625761642,screw_position
+4_class,clean rows,2,3,Melt temperature,0.02662222455328969,barrel_temperature
+4_class,clean rows,2,3,Mold temperature,0.027255935305521298,mold_temperature
+4_class,clean rows,2,3,time_to_fill,0.04677934005211111,phase_timing
+4_class,clean rows,2,3,ZDx - Plasticizing time,0.07276613784637317,plastification
+4_class,clean rows,2,3,ZUx - Cycle time,0.09874039543128978,phase_timing
+4_class,clean rows,2,3,SKx - Closing force,0.033198674710302155,clamp_force
+4_class,clean rows,2,3,SKs - Clamping force peak value,0.023974164213098437,clamp_force
+4_class,clean rows,2,3,Ms - Torque peak value current cycle,0.003639839015200544,plastification
+4_class,clean rows,2,3,Mm - Torque mean value current cycle,0.006960980390628866,plastification
+4_class,clean rows,2,3,APSs - Specific back pressure peak value,0.0032261229225340007,melt_pressure
+4_class,clean rows,2,3,APVs - Specific injection pressure peak value,0.04787929150033143,melt_pressure
+4_class,clean rows,2,3,CPn - Screw position at the end of hold pressure,0.009766376144805647,screw_position
+4_class,clean rows,2,3,SVo - Shot volume,0.009702635786174465,screw_position
+4_class,clean rows,2,4,Melt temperature,0.028357638029938348,barrel_temperature
+4_class,clean rows,2,4,Mold temperature,0.030758205583118946,mold_temperature
+4_class,clean rows,2,4,time_to_fill,0.04592175014270477,phase_timing
+4_class,clean rows,2,4,ZDx - Plasticizing time,0.08797132608480099,plastification
+4_class,clean rows,2,4,ZUx - Cycle time,0.10033408178140674,phase_timing
+4_class,clean rows,2,4,SKx - Closing force,0.037007936522540016,clamp_force
+4_class,clean rows,2,4,SKs - Clamping force peak value,0.019264416912152048,clamp_force
+4_class,clean rows,2,4,Ms - Torque peak value current cycle,0.0023824461959600163,plastification
+4_class,clean rows,2,4,Mm - Torque mean value current cycle,0.005499724064221082,plastification
+4_class,clean rows,2,4,APSs - Specific back pressure peak value,0.004135196423920733,melt_pressure
+4_class,clean rows,2,4,APVs - Specific injection pressure peak value,0.04713221764947503,melt_pressure
+4_class,clean rows,2,4,CPn - Screw position at the end of hold pressure,0.009401877565892757,screw_position
+4_class,clean rows,2,4,SVo - Shot volume,0.011932388047365199,screw_position
+4_class,all rows,0,0,Melt temperature,0.01771942380384666,barrel_temperature
+4_class,all rows,0,0,Mold temperature,0.033004449406687925,mold_temperature
+4_class,all rows,0,0,time_to_fill,0.053858475449671074,phase_timing
+4_class,all rows,0,0,ZDx - Plasticizing time,0.06356577933438125,plastification
+4_class,all rows,0,0,ZUx - Cycle time,0.09990616360717476,phase_timing
+4_class,all rows,0,0,SKx - Closing force,0.03713472350157762,clamp_force
+4_class,all rows,0,0,SKs - Clamping force peak value,0.03176124998718088,clamp_force
+4_class,all rows,0,0,Ms - Torque peak value current cycle,0.0042701011744416505,plastification
+4_class,all rows,0,0,Mm - Torque mean value current cycle,0.007365695321881791,plastification
+4_class,all rows,0,0,APSs - Specific back pressure peak value,0.004181033358651209,melt_pressure
+4_class,all rows,0,0,APVs - Specific injection pressure peak value,0.04282099666740076,melt_pressure
+4_class,all rows,0,0,CPn - Screw position at the end of hold pressure,0.01031446952709332,screw_position
+4_class,all rows,0,0,SVo - Shot volume,0.01236140801411138,screw_position
+4_class,all rows,0,1,Melt temperature,0.01837310831175522,barrel_temperature
+4_class,all rows,0,1,Mold temperature,0.029740682689319935,mold_temperature
+4_class,all rows,0,1,time_to_fill,0.053019531735018534,phase_timing
+4_class,all rows,0,1,ZDx - Plasticizing time,0.06476004248811408,plastification
+4_class,all rows,0,1,ZUx - Cycle time,0.10129216094476146,phase_timing
+4_class,all rows,0,1,SKx - Closing force,0.036294842465250984,clamp_force
+4_class,all rows,0,1,SKs - Clamping force peak value,0.02919860574625676,clamp_force
+4_class,all rows,0,1,Ms - Torque peak value current cycle,0.004591367696131706,plastification
+4_class,all rows,0,1,Mm - Torque mean value current cycle,0.007476038340491896,plastification
+4_class,all rows,0,1,APSs - Specific back pressure peak value,0.004110577514688703,melt_pressure
+4_class,all rows,0,1,APVs - Specific injection pressure peak value,0.04287119047572337,melt_pressure
+4_class,all rows,0,1,CPn - Screw position at the end of hold pressure,0.01242919068105042,screw_position
+4_class,all rows,0,1,SVo - Shot volume,0.010936905496383969,screw_position
+4_class,all rows,0,2,Melt temperature,0.015364102238215775,barrel_temperature
+4_class,all rows,0,2,Mold temperature,0.033915176012979886,mold_temperature
+4_class,all rows,0,2,time_to_fill,0.05461107981228603,phase_timing
+4_class,all rows,0,2,ZDx - Plasticizing time,0.06304445158571327,plastification
+4_class,all rows,0,2,ZUx - Cycle time,0.10055269752450254,phase_timing
+4_class,all rows,0,2,SKx - Closing force,0.03686464794990879,clamp_force
+4_class,all rows,0,2,SKs - Clamping force peak value,0.028776710936207164,clamp_force
+4_class,all rows,0,2,Ms - Torque peak value current cycle,0.004535214343261314,plastification
+4_class,all rows,0,2,Mm - Torque mean value current cycle,0.00726161785135058,plastification
+4_class,all rows,0,2,APSs - Specific back pressure peak value,0.004573068084562817,melt_pressure
+4_class,all rows,0,2,APVs - Specific injection pressure peak value,0.04247716473215139,melt_pressure
+4_class,all rows,0,2,CPn - Screw position at the end of hold pressure,0.01023027768245591,screw_position
+4_class,all rows,0,2,SVo - Shot volume,0.013065869901748232,screw_position
+4_class,all rows,0,3,Melt temperature,0.016143435494175934,barrel_temperature
+4_class,all rows,0,3,Mold temperature,0.031544657704820143,mold_temperature
+4_class,all rows,0,3,time_to_fill,0.05490641512398116,phase_timing
+4_class,all rows,0,3,ZDx - Plasticizing time,0.06589096853009069,plastification
+4_class,all rows,0,3,ZUx - Cycle time,0.10107972477465274,phase_timing
+4_class,all rows,0,3,SKx - Closing force,0.03640810448346763,clamp_force
+4_class,all rows,0,3,SKs - Clamping force peak value,0.028545550995144546,clamp_force
+4_class,all rows,0,3,Ms - Torque peak value current cycle,0.0044793419329752305,plastification
+4_class,all rows,0,3,Mm - Torque mean value current cycle,0.007454449268594671,plastification
+4_class,all rows,0,3,APSs - Specific back pressure peak value,0.0032431603873318096,melt_pressure
+4_class,all rows,0,3,APVs - Specific injection pressure peak value,0.042918897127271656,melt_pressure
+4_class,all rows,0,3,CPn - Screw position at the end of hold pressure,0.009982847284966324,screw_position
+4_class,all rows,0,3,SVo - Shot volume,0.012358350310206188,screw_position
+4_class,all rows,0,4,Melt temperature,0.022105693275071808,barrel_temperature
+4_class,all rows,0,4,Mold temperature,0.03633526891287227,mold_temperature
+4_class,all rows,0,4,time_to_fill,0.05682202260315604,phase_timing
+4_class,all rows,0,4,ZDx - Plasticizing time,0.07544542952611674,plastification
+4_class,all rows,0,4,ZUx - Cycle time,0.09696737593146812,phase_timing
+4_class,all rows,0,4,SKx - Closing force,0.038047298606384686,clamp_force
+4_class,all rows,0,4,SKs - Clamping force peak value,0.027883129775922333,clamp_force
+4_class,all rows,0,4,Ms - Torque peak value current cycle,0.0038305215801254415,plastification
+4_class,all rows,0,4,Mm - Torque mean value current cycle,0.005582543226110804,plastification
+4_class,all rows,0,4,APSs - Specific back pressure peak value,0.003917364008573978,melt_pressure
+4_class,all rows,0,4,APVs - Specific injection pressure peak value,0.04226706886844681,melt_pressure
+4_class,all rows,0,4,CPn - Screw position at the end of hold pressure,0.011075724201459393,screw_position
+4_class,all rows,0,4,SVo - Shot volume,0.01308353322073061,screw_position
+4_class,all rows,1,0,Melt temperature,0.019222760079639627,barrel_temperature
+4_class,all rows,1,0,Mold temperature,0.027348615803495395,mold_temperature
+4_class,all rows,1,0,time_to_fill,0.04812516956753209,phase_timing
+4_class,all rows,1,0,ZDx - Plasticizing time,0.06096037940064847,plastification
+4_class,all rows,1,0,ZUx - Cycle time,0.1103955928051796,phase_timing
+4_class,all rows,1,0,SKx - Closing force,0.040816700767780274,clamp_force
+4_class,all rows,1,0,SKs - Clamping force peak value,0.034203731885018476,clamp_force
+4_class,all rows,1,0,Ms - Torque peak value current cycle,0.004538076200684983,plastification
+4_class,all rows,1,0,Mm - Torque mean value current cycle,0.008016874013615236,plastification
+4_class,all rows,1,0,APSs - Specific back pressure peak value,0.004396400860195638,melt_pressure
+4_class,all rows,1,0,APVs - Specific injection pressure peak value,0.04194711518508204,melt_pressure
+4_class,all rows,1,0,CPn - Screw position at the end of hold pressure,0.0116447022308542,screw_position
+4_class,all rows,1,0,SVo - Shot volume,0.01142533977983734,screw_position
+4_class,all rows,1,1,Melt temperature,0.023250481589071163,barrel_temperature
+4_class,all rows,1,1,Mold temperature,0.028509914810432947,mold_temperature
+4_class,all rows,1,1,time_to_fill,0.05338181257326173,phase_timing
+4_class,all rows,1,1,ZDx - Plasticizing time,0.05659757887080703,plastification
+4_class,all rows,1,1,ZUx - Cycle time,0.10707408154913421,phase_timing
+4_class,all rows,1,1,SKx - Closing force,0.038277625713398496,clamp_force
+4_class,all rows,1,1,SKs - Clamping force peak value,0.029409176685765093,clamp_force
+4_class,all rows,1,1,Ms - Torque peak value current cycle,0.004568194268917089,plastification
+4_class,all rows,1,1,Mm - Torque mean value current cycle,0.007402313453142674,plastification
+4_class,all rows,1,1,APSs - Specific back pressure peak value,0.004519319175356743,melt_pressure
+4_class,all rows,1,1,APVs - Specific injection pressure peak value,0.043270425929458296,melt_pressure
+4_class,all rows,1,1,CPn - Screw position at the end of hold pressure,0.013898696387229945,screw_position
+4_class,all rows,1,1,SVo - Shot volume,0.009784203118946302,screw_position
+4_class,all rows,1,2,Melt temperature,0.02211627118864365,barrel_temperature
+4_class,all rows,1,2,Mold temperature,0.03162410785479131,mold_temperature
+4_class,all rows,1,2,time_to_fill,0.05185710405578418,phase_timing
+4_class,all rows,1,2,ZDx - Plasticizing time,0.05333157370824425,plastification
+4_class,all rows,1,2,ZUx - Cycle time,0.11115830316986582,phase_timing
+4_class,all rows,1,2,SKx - Closing force,0.03779686014915644,clamp_force
+4_class,all rows,1,2,SKs - Clamping force peak value,0.03184446138389121,clamp_force
+4_class,all rows,1,2,Ms - Torque peak value current cycle,0.004151505473698287,plastification
+4_class,all rows,1,2,Mm - Torque mean value current cycle,0.007041132394239992,plastification
+4_class,all rows,1,2,APSs - Specific back pressure peak value,0.004558445484610063,melt_pressure
+4_class,all rows,1,2,APVs - Specific injection pressure peak value,0.04042269439751359,melt_pressure
+4_class,all rows,1,2,CPn - Screw position at the end of hold pressure,0.01067631165243829,screw_position
+4_class,all rows,1,2,SVo - Shot volume,0.010349541369528694,screw_position
+4_class,all rows,1,3,Melt temperature,0.01984360913962865,barrel_temperature
+4_class,all rows,1,3,Mold temperature,0.026721729746113344,mold_temperature
+4_class,all rows,1,3,time_to_fill,0.05578784699137653,phase_timing
+4_class,all rows,1,3,ZDx - Plasticizing time,0.0549760648503387,plastification
+4_class,all rows,1,3,ZUx - Cycle time,0.10701338016558773,phase_timing
+4_class,all rows,1,3,SKx - Closing force,0.04114465510146908,clamp_force
+4_class,all rows,1,3,SKs - Clamping force peak value,0.02827773422096032,clamp_force
+4_class,all rows,1,3,Ms - Torque peak value current cycle,0.004431678213167044,plastification
+4_class,all rows,1,3,Mm - Torque mean value current cycle,0.007117917303180848,plastification
+4_class,all rows,1,3,APSs - Specific back pressure peak value,0.003498087840025637,melt_pressure
+4_class,all rows,1,3,APVs - Specific injection pressure peak value,0.04258736304163144,melt_pressure
+4_class,all rows,1,3,CPn - Screw position at the end of hold pressure,0.011874488595569482,screw_position
+4_class,all rows,1,3,SVo - Shot volume,0.011337729106200858,screw_position
+4_class,all rows,1,4,Melt temperature,0.02816599284742799,barrel_temperature
+4_class,all rows,1,4,Mold temperature,0.031925355236290046,mold_temperature
+4_class,all rows,1,4,time_to_fill,0.05924957001037569,phase_timing
+4_class,all rows,1,4,ZDx - Plasticizing time,0.06679424425921052,plastification
+4_class,all rows,1,4,ZUx - Cycle time,0.10444142966937087,phase_timing
+4_class,all rows,1,4,SKx - Closing force,0.03838376753273807,clamp_force
+4_class,all rows,1,4,SKs - Clamping force peak value,0.027384411095066074,clamp_force
+4_class,all rows,1,4,Ms - Torque peak value current cycle,0.0038287178873322495,plastification
+4_class,all rows,1,4,Mm - Torque mean value current cycle,0.005187050211540973,plastification
+4_class,all rows,1,4,APSs - Specific back pressure peak value,0.0043835037992652716,melt_pressure
+4_class,all rows,1,4,APVs - Specific injection pressure peak value,0.04046064750317149,melt_pressure
+4_class,all rows,1,4,CPn - Screw position at the end of hold pressure,0.01289160446322822,screw_position
+4_class,all rows,1,4,SVo - Shot volume,0.010380370401012943,screw_position
+4_class,all rows,2,0,Melt temperature,0.020279176463431692,barrel_temperature
+4_class,all rows,2,0,Mold temperature,0.025959015341071975,mold_temperature
+4_class,all rows,2,0,time_to_fill,0.04699627757230942,phase_timing
+4_class,all rows,2,0,ZDx - Plasticizing time,0.0708253457364511,plastification
+4_class,all rows,2,0,ZUx - Cycle time,0.10641881645366533,phase_timing
+4_class,all rows,2,0,SKx - Closing force,0.03579341349370385,clamp_force
+4_class,all rows,2,0,SKs - Clamping force peak value,0.03652867929673661,clamp_force
+4_class,all rows,2,0,Ms - Torque peak value current cycle,0.004666977685185447,plastification
+4_class,all rows,2,0,Mm - Torque mean value current cycle,0.0074213924225290185,plastification
+4_class,all rows,2,0,APSs - Specific back pressure peak value,0.004358308659435539,melt_pressure
+4_class,all rows,2,0,APVs - Specific injection pressure peak value,0.0394084628375426,melt_pressure
+4_class,all rows,2,0,CPn - Screw position at the end of hold pressure,0.0094458357843764,screw_position
+4_class,all rows,2,0,SVo - Shot volume,0.01052705766849123,screw_position
+4_class,all rows,2,1,Melt temperature,0.023961047961103047,barrel_temperature
+4_class,all rows,2,1,Mold temperature,0.023763110370781115,mold_temperature
+4_class,all rows,2,1,time_to_fill,0.04605854358410579,phase_timing
+4_class,all rows,2,1,ZDx - Plasticizing time,0.0691798309898985,plastification
+4_class,all rows,2,1,ZUx - Cycle time,0.10454285752799485,phase_timing
+4_class,all rows,2,1,SKx - Closing force,0.032651871789108076,clamp_force
+4_class,all rows,2,1,SKs - Clamping force peak value,0.02916274997465606,clamp_force
+4_class,all rows,2,1,Ms - Torque peak value current cycle,0.004244526097054072,plastification
+4_class,all rows,2,1,Mm - Torque mean value current cycle,0.007503323417899608,plastification
+4_class,all rows,2,1,APSs - Specific back pressure peak value,0.004533439021395023,melt_pressure
+4_class,all rows,2,1,APVs - Specific injection pressure peak value,0.04424299558617941,melt_pressure
+4_class,all rows,2,1,CPn - Screw position at the end of hold pressure,0.013303258452922625,screw_position
+4_class,all rows,2,1,SVo - Shot volume,0.012363577242820454,screw_position
+4_class,all rows,2,2,Melt temperature,0.02093791307280069,barrel_temperature
+4_class,all rows,2,2,Mold temperature,0.025782024997166364,mold_temperature
+4_class,all rows,2,2,time_to_fill,0.04857005605485824,phase_timing
+4_class,all rows,2,2,ZDx - Plasticizing time,0.06569858593475522,plastification
+4_class,all rows,2,2,ZUx - Cycle time,0.10217372419777035,phase_timing
+4_class,all rows,2,2,SKx - Closing force,0.035939191075728225,clamp_force
+4_class,all rows,2,2,SKs - Clamping force peak value,0.030309345398870438,clamp_force
+4_class,all rows,2,2,Ms - Torque peak value current cycle,0.004510989001657239,plastification
+4_class,all rows,2,2,Mm - Torque mean value current cycle,0.006359039137293512,plastification
+4_class,all rows,2,2,APSs - Specific back pressure peak value,0.005048352258839088,melt_pressure
+4_class,all rows,2,2,APVs - Specific injection pressure peak value,0.04605127266112552,melt_pressure
+4_class,all rows,2,2,CPn - Screw position at the end of hold pressure,0.011092722198043253,screw_position
+4_class,all rows,2,2,SVo - Shot volume,0.010059779822852263,screw_position
+4_class,all rows,2,3,Melt temperature,0.01838670904254973,barrel_temperature
+4_class,all rows,2,3,Mold temperature,0.028039034796130298,mold_temperature
+4_class,all rows,2,3,time_to_fill,0.04524270170598649,phase_timing
+4_class,all rows,2,3,ZDx - Plasticizing time,0.06539298867198162,plastification
+4_class,all rows,2,3,ZUx - Cycle time,0.10846874520542246,phase_timing
+4_class,all rows,2,3,SKx - Closing force,0.03405669509329804,clamp_force
+4_class,all rows,2,3,SKs - Clamping force peak value,0.03120172352010541,clamp_force
+4_class,all rows,2,3,Ms - Torque peak value current cycle,0.004122134371589101,plastification
+4_class,all rows,2,3,Mm - Torque mean value current cycle,0.006315237145561637,plastification
+4_class,all rows,2,3,APSs - Specific back pressure peak value,0.0042699733996349794,melt_pressure
+4_class,all rows,2,3,APVs - Specific injection pressure peak value,0.046008284347977484,melt_pressure
+4_class,all rows,2,3,CPn - Screw position at the end of hold pressure,0.011665484734504308,screw_position
+4_class,all rows,2,3,SVo - Shot volume,0.010914520224133192,screw_position
+4_class,all rows,2,4,Melt temperature,0.023340497089239975,barrel_temperature
+4_class,all rows,2,4,Mold temperature,0.03154897111665148,mold_temperature
+4_class,all rows,2,4,time_to_fill,0.0483692491169724,phase_timing
+4_class,all rows,2,4,ZDx - Plasticizing time,0.08057314629747107,plastification
+4_class,all rows,2,4,ZUx - Cycle time,0.10496886053078883,phase_timing
+4_class,all rows,2,4,SKx - Closing force,0.03444680032555851,clamp_force
+4_class,all rows,2,4,SKs - Clamping force peak value,0.031489012482453435,clamp_force
+4_class,all rows,2,4,Ms - Torque peak value current cycle,0.003801416644768125,plastification
+4_class,all rows,2,4,Mm - Torque mean value current cycle,0.0057301641037567665,plastification
+4_class,all rows,2,4,APSs - Specific back pressure peak value,0.004058144263421341,melt_pressure
+4_class,all rows,2,4,APVs - Specific injection pressure peak value,0.043084505158126944,melt_pressure
+4_class,all rows,2,4,CPn - Screw position at the end of hold pressure,0.011237679118042122,screw_position
+4_class,all rows,2,4,SVo - Shot volume,0.011301391683009608,screw_position

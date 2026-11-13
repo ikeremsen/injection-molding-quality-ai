@@ -1,0 +1,365 @@
+column,prefix,kind,role,n_missing,n_unique,constant,note,missing_2021-12-07,missing_2021-12-15,missing_2022-03-17
+MET_JobCycleID,MET,scalar,FORBIDDEN,0,423.0,False,,0,0,0
+MET_MachineCycleID,MET,scalar,FORBIDDEN,0,564.0,False,,0,0,0
+MET_TimeCycleStart,MET,scalar,FORBIDDEN,0,564.0,False,,0,0,0
+MET_TimeCycleEnd,MET,scalar,FORBIDDEN,0,564.0,False,,0,0,0
+MET_ExperimentNumber,MET,scalar,FORBIDDEN,0,30.0,False,,0,0,0
+MET_MaterialName,MET,scalar,FORBIDDEN,0,2.0,False,,0,0,0
+SCA_PartWeight,SCA,scalar,FORBIDDEN,0,278.0,False,,0,0,0
+ENV_AirTemperature,ENV,scalar,INPUT-allowed,0,33.0,False,,0,0,0
+ENV_AirHumidity,ENV,scalar,INPUT-allowed,0,12.0,False,,0,0,0
+MET_MaterialMoisture,MET,scalar,FORBIDDEN,0,3.0,False,,0,0,0
+SET_CylinderTemperature,SET,scalar,INPUT-allowed,0,6.0,False,,0,0,0
+SET_ToolTemperature,SET,scalar,INPUT-allowed,0,8.0,False,,0,0,0
+SET_HoldingPressure1,SET,scalar,INPUT-allowed,0,9.0,False,,0,0,0
+SET_HoldingPressure2,SET,scalar,INPUT-allowed,0,2.0,False,,0,0,0
+SET_InjectionSpeed,SET,scalar,INPUT-allowed,0,11.0,False,,0,0,0
+SET_BackPressure,SET,scalar,INPUT-allowed,408,3.0,False,,204,204,0
+SET_HoldingTime1,SET,scalar,INPUT-allowed,0,7.0,False,,0,0,0
+SET_HoldingTime2,SET,scalar,INPUT-allowed,0,2.0,False,,0,0,0
+SET_CoolingTime,SET,scalar,INPUT-allowed,0,12.0,False,,0,0,0
+SET_TransferVolume,SET,scalar,INPUT-allowed,0,22.0,False,,0,0,0
+LBL_NOK,LBL,scalar,FORBIDDEN,0,2.0,False,,0,0,0
+LBL_SinkMarks,LBL,scalar,FORBIDDEN,0,2.0,False,,0,0,0
+LBL_SprueCircle,LBL,scalar,FORBIDDEN,0,2.0,False,,0,0,0
+LBL_Underfilled,LBL,scalar,FORBIDDEN,0,2.0,False,,0,0,0
+LBL_StreaksLevel1,LBL,scalar,FORBIDDEN,0,2.0,False,,0,0,0
+LBL_StreaksLevel2,LBL,scalar,FORBIDDEN,0,2.0,False,,0,0,0
+LBL_StreaksLevel3,LBL,scalar,FORBIDDEN,0,2.0,False,,0,0,0
+LBL_OldGranulate,LBL,scalar,FORBIDDEN,152,2.0,False,,0,152,0
+CV_Width1,CV,scalar,FORBIDDEN,0,550.0,False,,0,0,0
+CV_Height1,CV,scalar,FORBIDDEN,0,535.0,False,,0,0,0
+CV_Image1Name,CV,scalar,FORBIDDEN,0,563.0,False,,0,0,0
+CV_Width2,CV,scalar,FORBIDDEN,0,539.0,False,,0,0,0
+CV_Height2,CV,scalar,FORBIDDEN,0,532.0,False,,0,0,0
+CV_Height2Small,CV,scalar,FORBIDDEN,0,483.0,False,,0,0,0
+CV_Width2Small,CV,scalar,FORBIDDEN,0,484.0,False,,0,0,0
+CV_Image2Name,CV,scalar,FORBIDDEN,0,563.0,False,,0,0,0
+CV_Width3,CV,scalar,FORBIDDEN,0,544.0,False,,0,0,0
+CV_Height3,CV,scalar,FORBIDDEN,0,533.0,False,,0,0,0
+CV_Diameter3,CV,scalar,FORBIDDEN,0,551.0,False,,0,0,0
+CV_Image3Name,CV,scalar,FORBIDDEN,0,563.0,False,,0,0,0
+QUA_CycleTime,QUA,scalar,INPUT-allowed,0,114.0,False,,0,0,0
+QUA_InjectionTime,QUA,scalar,INPUT-allowed,0,25.0,False,,0,0,0
+QUA_PlastificationTime,QUA,scalar,INPUT-allowed,0,153.0,False,,0,0,0
+QUA_CushionVolume,QUA,scalar,INPUT-allowed,0,396.0,False,,0,0,0
+QUA_InjectionPressureMax,QUA,scalar,INPUT-allowed,0,127.0,False,,0,0,0
+QUA_TransferPressure,QUA,scalar,INPUT-allowed,0,126.0,False,,0,0,0
+QUA_TransferStroke,QUA,scalar,INPUT-allowed,0,27.0,False,,0,0,0
+QUA_OilTemperature,QUA,scalar,INPUT-allowed,0,5.0,False,,0,0,0
+QUA_CylinderTemperature11,QUA,scalar,INPUT-allowed,0,24.0,False,,0,0,0
+QUA_CylinderTemperature04,QUA,scalar,INPUT-allowed,0,7.0,False,,0,0,0
+QUA_CylinderTemperature03,QUA,scalar,INPUT-allowed,0,12.0,False,,0,0,0
+QUA_CylinderTemperature02,QUA,scalar,INPUT-allowed,0,16.0,False,,0,0,0
+QUA_CylinderTemperature01,QUA,scalar,INPUT-allowed,0,26.0,False,,0,0,0
+QUA_FlangeTemperature,QUA,scalar,INPUT-allowed,0,6.0,False,,0,0,0
+QUA_ToolTemperature1,QUA,scalar,INPUT-allowed,0,18.0,False,,0,0,0
+QUA_ToolTemperature2,QUA,scalar,INPUT-allowed,0,21.0,False,,0,0,0
+QUA_ToolClosingTime,QUA,scalar,INPUT-allowed,0,8.0,False,,0,0,0
+QUA_ClampForceDecreaseTime,QUA,scalar,INPUT-allowed,0,5.0,False,,0,0,0
+QUA_ClampForceIncreaseTime,QUA,scalar,INPUT-allowed,0,2.0,False,,0,0,0
+QUA_ToolOpeningTime,QUA,scalar,INPUT-allowed,0,9.0,False,,0,0,0
+QUA_CoolingTime,QUA,scalar,INPUT-allowed,0,20.0,False,,0,0,0
+QUA_EjectionTime,QUA,scalar,INPUT-allowed,0,19.0,False,,0,0,0
+QUA_WaitingTime,QUA,scalar,INPUT-allowed,0,2.0,False,,0,0,0
+QUA_HoldingTime,QUA,scalar,INPUT-allowed,0,5.0,False,,0,0,0
+QUA_InjectionUnitForwardsTime,QUA,scalar,INPUT-allowed,0,2.0,False,,0,0,0
+QUA_InjectionUnitBackwardsTime,QUA,scalar,INPUT-allowed,0,22.0,False,,0,0,0
+QUA_MeltPressure2Max,QUA,scalar,INPUT-allowed,156,33.0,False,,0,0,156
+QUA_HoldingPressureMax,QUA,scalar,INPUT-allowed,156,166.0,False,,0,0,156
+QUA_TransferSpecificPressure1,QUA,scalar,INPUT-allowed,0,73.0,False,,0,0,0
+QUA_CavityPressure1Max,QUA,scalar,INPUT-allowed,0,105.0,False,,0,0,0
+QUA_InjectionSpeed1,QUA,scalar,INPUT-allowed,156,50.0,False,,0,0,156
+QUA_InjectionSpeed2,QUA,scalar,INPUT-allowed,0,10.0,False,,0,0,0
+QUA_PlastificationSpeed,QUA,scalar,INPUT-allowed,156,18.0,False,,0,0,156
+QUA_AreaCavityPressure1Max,QUA,scalar,INPUT-allowed,0,99.0,False,,0,0,0
+QUA_AreaCavityPressure1Dr1,QUA,scalar,INPUT-allowed,0,433.0,False,,0,0,0
+QUA_AreaMeltPressureMax,QUA,scalar,INPUT-allowed,0,146.0,False,,0,0,0
+QUA_AreaMeltPressure,QUA,scalar,INPUT-allowed,0,428.0,False,,0,0,0
+QUA_AreaPowerMax,QUA,scalar,INPUT-allowed,0,179.0,False,,0,0,0
+QUA_AreaPower,QUA,scalar,INPUT-allowed,0,179.0,False,,0,0,0
+QUA_AreaInjectionStroke,QUA,scalar,INPUT-allowed,0,205.0,False,,0,0,0
+QUA_AreaInjectionSpeedMax,QUA,scalar,INPUT-allowed,0,10.0,False,,0,0,0
+QUA_AreaInjectionSpeed,QUA,scalar,INPUT-allowed,0,86.0,False,,0,0,0
+QUA_BackPressureMax,QUA,scalar,INPUT-allowed,0,68.0,False,,0,0,0
+TCE_ActualProcessPower,TCE,array,INPUT-allowed,0,,False,len 40-60,0,0,0
+TCE_ActualPumpPower,TCE,array,INPUT-allowed,0,,False,len 40-60,0,0,0
+TCE_ActualPumpSpeedRPM,TCE,array,INPUT-allowed,0,,False,len 40-60,0,0,0
+TCE_ActualFlowRate,TCE,array,INPUT-allowed,156,,False,len 0-58,0,0,156
+TCE_PressureMainLine,TCE,array,INPUT-allowed,0,,False,len 40-60,0,0,0
+TCE_PressureReturnLine,TCE,array,INPUT-allowed,0,,False,len 40-60,0,0,0
+TCE_ActualPumpSpeed,TCE,array,INPUT-allowed,0,,False,len 40-60,0,0,0
+TCE_ActualTemperatureDifference,TCE,array,INPUT-allowed,0,,False,len 40-60,0,0,0
+TCE_TemperatureMainLine,TCE,array,INPUT-allowed,0,,False,len 40-60,0,0,0
+TCE_TemperatureReturnLine,TCE,array,INPUT-allowed,0,,False,len 40-60,0,0,0
+TCE_SetTemperature,TCE,array,INPUT-allowed,0,,False,len 40-60,0,0,0
+TCN_ActualProcessPower,TCN,array,INPUT-allowed,0,,False,len 40-60,0,0,0
+TCN_ActualPumpPower,TCN,array,INPUT-allowed,0,,False,len 40-60,0,0,0
+TCN_ActualPumpSpeedRPM,TCN,array,INPUT-allowed,0,,False,len 40-60,0,0,0
+TCN_ActualFlowRate,TCN,array,INPUT-allowed,0,,False,len 40-60,0,0,0
+TCN_PressureMainLine,TCN,array,INPUT-allowed,0,,False,len 40-60,0,0,0
+TCN_PressureReturnLine,TCN,array,INPUT-allowed,0,,False,len 40-60,0,0,0
+TCN_ActualPumpSpeed,TCN,array,INPUT-allowed,0,,False,len 40-60,0,0,0
+TCN_ActualTemperatureDifference,TCN,array,INPUT-allowed,0,,False,len 40-60,0,0,0
+TCN_TemperatureMainLine,TCN,array,INPUT-allowed,0,,False,len 40-60,0,0,0
+TCN_TemperatureReturnLine,TCN,array,INPUT-allowed,0,,False,len 40-60,0,0,0
+TCN_SetTemperature,TCN,array,INPUT-allowed,0,,False,len 40-60,0,0,0
+TCE_ActualProcessPowerMean,TCE,scalar,INPUT-allowed,0,2.0,False,,0,0,0
+TCE_ActualPumpPowerMean,TCE,scalar,INPUT-allowed,0,2.0,False,,0,0,0
+TCE_ActualPumpSpeedRPMMean,TCE,scalar,INPUT-allowed,0,2.0,False,,0,0,0
+TCE_ActualFlowRateMean,TCE,scalar,INPUT-allowed,156,3.0,False,,0,0,156
+TCE_PressureMainLineMean,TCE,scalar,INPUT-allowed,0,23.0,False,,0,0,0
+TCE_PressureReturnLineMean,TCE,scalar,INPUT-allowed,0,26.0,False,,0,0,0
+TCE_ActualPumpSpeedMean,TCE,scalar,INPUT-allowed,0,2.0,False,,0,0,0
+TCE_ActualTemperatureDifferenceMean,TCE,scalar,INPUT-allowed,0,59.0,False,,0,0,0
+TCE_TemperatureMainLineMean,TCE,scalar,INPUT-allowed,0,139.0,False,,0,0,0
+TCE_TemperatureReturnLineMean,TCE,scalar,INPUT-allowed,0,116.0,False,,0,0,0
+TCE_SetTemperatureMean,TCE,scalar,INPUT-allowed,0,11.0,False,,0,0,0
+TCN_ActualProcessPowerMean,TCN,scalar,INPUT-allowed,0,9.0,False,,0,0,0
+TCN_ActualPumpPowerMean,TCN,scalar,INPUT-allowed,0,9.0,False,,0,0,0
+TCN_ActualPumpSpeedRPMMean,TCN,scalar,INPUT-allowed,0,2.0,False,,0,0,0
+TCN_ActualFlowRateMean,TCN,scalar,INPUT-allowed,0,26.0,False,,0,0,0
+TCN_PressureMainLineMean,TCN,scalar,INPUT-allowed,0,74.0,False,,0,0,0
+TCN_PressureReturnLineMean,TCN,scalar,INPUT-allowed,0,69.0,False,,0,0,0
+TCN_ActualPumpSpeedMean,TCN,scalar,INPUT-allowed,0,2.0,False,,0,0,0
+TCN_ActualTemperatureDifferenceMean,TCN,scalar,INPUT-allowed,0,95.0,False,,0,0,0
+TCN_TemperatureMainLineMean,TCN,scalar,INPUT-allowed,0,242.0,False,,0,0,0
+TCN_TemperatureReturnLineMean,TCN,scalar,INPUT-allowed,0,166.0,False,,0,0,0
+TCN_SetTemperatureMean,TCN,scalar,INPUT-allowed,0,10.0,False,,0,0,0
+DXP_Inj1PrsAct,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Inj1VelAct,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Inj1PosAct,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Inj1RpmAct,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_MldCavPrs1Act,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_ClpVelAct,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_ClpPosAct,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_ClpFceAct,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Eje1VelAct,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Eje1PosAct,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Inju1PosAct,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Inju1VelAct,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Pmp1VolSet,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Pmp1PrsSet,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Pmp1PrsAct,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_DriveSiePmpTrqAct,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_DriveSiePlst1TrqAct,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_ClpMldAdjAct,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Inju1U4000VelSet,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Counter2Counter2Act,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Parameter_int32_1_Set,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Parameter_int32_2_Set,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Parameter_int16_1_Set,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Parameter_int16_2_Set,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Parameter_int16_3_Set,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Alarm_int32_Act,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Step_int32_Act,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Parameter_int32_Option,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Mux1Tmp_1_16TmpMux,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Mux2Tmp_1_16TmpMux,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_PumpValve1Set,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_ClampValve1,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_EjeValve1,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Inj1Valve1,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_T_Inj1BrlHtgBit1,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Pump2ServoIxtAct,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Pump11ServoSpeed,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Pump11ServoTrqAct,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_TrigClpCls,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_TrigClpOpn,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_TrigInj1,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_TrigHld1,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_TrigPlst1,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_TrigInj1Dcmp1,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_TrigInj1Dcmp2,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_TrigCool,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_TrigClpCfb,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_TrigClpCfr,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_TrigEje1Fwd,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_TrigEje1Rew,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_TrigInju1Fwd,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_TrigInju1Rew,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Inj1VelVolAct,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Inj1PosVolAct,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Inj1HopTmpAct,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Inj1HtgTmp1Act,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Inj1HtgTmp2Act,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Inj1HtgTmp3Act,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Inj1HtgTmp4Act,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Inj1HtgTmp11Act,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Inj1HopEdAct,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Inj1HtgEd1Act,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Inj1HtgEd2Act,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Inj1HtgEd3Act,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Inj1HtgEd4Act,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_Inj1HtgEd11Act,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_MldHtg1Tmp1Act,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_MldHtg1Tmp2Act,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+DXP_OilTmp1Act,DXP,array,INPUT-allowed,0,,False,len 8041-12079,0,0,0
+IR_Image1Name,IR,scalar,FORBIDDEN,0,564.0,False,,0,0,0
+IR_Image2Name,IR,scalar,FORBIDDEN,0,564.0,False,,0,0,0
+IR_Image3Name,IR,scalar,FORBIDDEN,156,408.0,False,,0,0,156
+DRY_HT101_acAirFlow,DRY,array,UNDECIDED,156,,False,len 0-135,0,0,156
+DRY_HT101_acDryingTime,DRY,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DRY_HT101_acSensorMoisture,DRY,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DRY_HT101_acTempDryair,DRY,array,UNDECIDED,0,,False,len 18-135,0,0,0
+DRY_HT101_acTempReturnAir,DRY,array,UNDECIDED,0,,False,len 18-135,0,0,0
+DRY_HT101_sfBinOn,DRY,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DRY_HT101_sfDryingFinished,DRY,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DRY_HT101_sfTimerOn,DRY,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DRY_HT101_svDryingTime,DRY,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DRY_HT101_svTempDryair,DRY,array,UNDECIDED,156,,False,len 0-135,0,0,156
+DRY_HT101_svTempReturnAir,DRY,array,UNDECIDED,156,,False,len 0-135,0,0,156
+DRY_HT101_svTempStandby,DRY,array,UNDECIDED,156,,False,len 0-135,0,0,156
+DRY_HT102_acAirFlow,DRY,array,UNDECIDED,156,,False,len 0-135,0,0,156
+DRY_HT102_acDryingTime,DRY,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DRY_HT102_acSensorMoisture,DRY,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DRY_HT102_acTempDryair,DRY,array,UNDECIDED,0,,False,len 18-135,0,0,0
+DRY_HT102_acTempReturnAir,DRY,array,UNDECIDED,0,,False,len 18-135,0,0,0
+DRY_HT102_sfBinOn,DRY,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DRY_HT102_sfDryingFinished,DRY,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DRY_HT102_sfTimerOn,DRY,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DRY_HT102_svDryingTime,DRY,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DRY_HT102_svTempDryair,DRY,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DRY_HT102_svTempReturnAir,DRY,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DRY_HT102_svTempStandby,DRY,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DOS_acBatchCounter,DOS,array,UNDECIDED,156,,False,len 0-135,0,0,156
+DOS_acComp1DosRate,DOS,array,UNDECIDED,156,,False,len 0-135,0,0,156
+DOS_acComp1Percent,DOS,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DOS_acComp1TotalWeight,DOS,array,UNDECIDED,156,,False,len 0-135,0,0,156
+DOS_acComp2DosRate,DOS,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DOS_acComp2Percent,DOS,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DOS_acComp2TotalWeight,DOS,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DOS_acComp3DosRate,DOS,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DOS_acComp3Percent,DOS,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DOS_acComp3TotalWeight,DOS,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DOS_acComp4DosRate,DOS,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DOS_acComp4Percent,DOS,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DOS_acComp4TotalWeight,DOS,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DOS_acDessicantBedCycleTime,DOS,array,UNDECIDED,156,,False,len 0-135,0,0,156
+DOS_acDryCircuitDewPoint,DOS,array,UNDECIDED,156,,False,len 0-135,0,0,156
+DOS_acRegCircuitInletTemp,DOS,array,UNDECIDED,156,,False,len 0-135,0,0,156
+DOS_acTotalWeight,DOS,array,UNDECIDED,156,,False,len 0-135,0,0,156
+DOS_acWeight,DOS,array,UNDECIDED,156,,False,len 0-135,0,0,156
+DOS_sfDryerOn,DOS,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DOS_sfTimerOn,DOS,array,UNDECIDED,156,,True,len 0-135,0,0,156
+DOS_svBatchWeight,DOS,array,UNDECIDED,156,,True,len 0-135,0,0,156
+SIM_Width1,SIM,scalar,FORBIDDEN,348,17.0,False,,0,204,144
+SIM_Width2,SIM,scalar,FORBIDDEN,348,17.0,False,,0,204,144
+SIM_Width3,SIM,scalar,FORBIDDEN,348,16.0,False,,0,204,144
+SIM_Height1,SIM,scalar,FORBIDDEN,348,17.0,False,,0,204,144
+SIM_Height2,SIM,scalar,FORBIDDEN,348,17.0,False,,0,204,144
+SIM_Height3,SIM,scalar,FORBIDDEN,348,17.0,False,,0,204,144
+SIM_Width,SIM,scalar,FORBIDDEN,348,17.0,False,,0,204,144
+SIM_Height,SIM,scalar,FORBIDDEN,348,16.0,False,,0,204,144
+SIM_Height2Small,SIM,scalar,FORBIDDEN,348,17.0,False,,0,204,144
+SIM_Width2Small,SIM,scalar,FORBIDDEN,348,17.0,False,,0,204,144
+SIM_Diameter3,SIM,scalar,FORBIDDEN,348,17.0,False,,0,204,144
+SIM_Roundness,SIM,scalar,FORBIDDEN,348,12.0,False,,0,204,144
+SIM_TempSprue,SIM,scalar,FORBIDDEN,204,26.0,False,,0,204,0
+SIM_TempDome,SIM,scalar,FORBIDDEN,204,24.0,False,,0,204,0
+SIM_TempEdgeHor,SIM,scalar,FORBIDDEN,204,26.0,False,,0,204,0
+SIM_TempEdgeVer,SIM,scalar,FORBIDDEN,204,24.0,False,,0,204,0
+SIM_TempGradVerStd,SIM,scalar,FORBIDDEN,360,17.0,False,,0,204,156
+SIM_TempGradVerRng,SIM,scalar,FORBIDDEN,360,17.0,False,,0,204,156
+SIM_TempVerStd,SIM,scalar,FORBIDDEN,360,17.0,False,,0,204,156
+SIM_TempVerRng,SIM,scalar,FORBIDDEN,360,17.0,False,,0,204,156
+SIM_TempGradHorStd,SIM,scalar,FORBIDDEN,360,15.0,False,,0,204,156
+SIM_TempGradHorRng,SIM,scalar,FORBIDDEN,360,14.0,False,,0,204,156
+SIM_PartWeight,SIM,scalar,FORBIDDEN,204,26.0,False,,0,204,0
+SIM_TotalWeight,SIM,scalar,FORBIDDEN,360,17.0,False,,0,204,156
+SIM_InjectionPressureMax,SIM,scalar,FORBIDDEN,360,13.0,False,,0,204,156
+SIM_InjectionPressureArea,SIM,scalar,FORBIDDEN,360,17.0,False,,0,204,156
+SIM_FlowRateMax,SIM,scalar,FORBIDDEN,360,5.0,False,,0,204,156
+SIM_FlowRateArea,SIM,scalar,FORBIDDEN,360,17.0,False,,0,204,156
+SIM_VolumeFractionMax,SIM,scalar,FORBIDDEN,360,1.0,True,,0,204,156
+DXP_AreaCavityPressure,DXP,scalar,INPUT-allowed,0,549.0,False,,0,0,0
+DXP_HoldingPressure1,DXP,scalar,INPUT-allowed,0,86.0,False,,0,0,0
+DXP_HoldingPressure2,DXP,scalar,INPUT-allowed,0,31.0,False,,0,0,0
+DXP_HoldingTime1,DXP,scalar,INPUT-allowed,0,9.0,False,,0,0,0
+DXP_HoldingTime2,DXP,scalar,INPUT-allowed,0,5.0,False,,0,0,0
+CV_Warpage,CV,scalar,FORBIDDEN,0,185.0,False,,0,0,0
+IR_Img1TempSprue,IR,scalar,FORBIDDEN,0,489.0,False,,0,0,0
+IR_Img2TempSprue,IR,scalar,FORBIDDEN,0,498.0,False,,0,0,0
+IR_Img3TempSprue,IR,scalar,FORBIDDEN,156,357.0,False,,0,0,156
+IR_Img1TempDome,IR,scalar,FORBIDDEN,0,476.0,False,,0,0,0
+IR_Img2TempDome,IR,scalar,FORBIDDEN,0,485.0,False,,0,0,0
+IR_Img3TempDome,IR,scalar,FORBIDDEN,156,345.0,False,,0,0,156
+IR_Img1TempFull,IR,scalar,FORBIDDEN,0,482.0,False,,0,0,0
+IR_Img2TempFull,IR,scalar,FORBIDDEN,0,470.0,False,,0,0,0
+IR_Img3TempFull,IR,scalar,FORBIDDEN,156,343.0,False,,0,0,156
+IR_Img1TempEdgeHor,IR,scalar,FORBIDDEN,0,443.0,False,,0,0,0
+IR_Img2TempEdgeHor,IR,scalar,FORBIDDEN,0,469.0,False,,0,0,0
+IR_Img3TempEdgeHor,IR,scalar,FORBIDDEN,156,351.0,False,,0,0,156
+IR_Img1TempEdgeVer,IR,scalar,FORBIDDEN,0,484.0,False,,0,0,0
+IR_Img2TempEdgeVer,IR,scalar,FORBIDDEN,0,474.0,False,,0,0,0
+IR_Img3TempEdgeVer,IR,scalar,FORBIDDEN,156,342.0,False,,0,0,156
+IR_Img1TempGradHorStd,IR,scalar,FORBIDDEN,0,392.0,False,,0,0,0
+IR_Img2TempGradHorStd,IR,scalar,FORBIDDEN,0,360.0,False,,0,0,0
+IR_Img3TempGradHorStd,IR,scalar,FORBIDDEN,156,206.0,False,,0,0,156
+IR_Img1TempGradHorRng,IR,scalar,FORBIDDEN,0,28.0,False,,0,0,0
+IR_Img2TempGradHorRng,IR,scalar,FORBIDDEN,0,25.0,False,,0,0,0
+IR_Img3TempGradHorRng,IR,scalar,FORBIDDEN,156,15.0,False,,0,0,156
+IR_Img1TempGradVerStd,IR,scalar,FORBIDDEN,0,465.0,False,,0,0,0
+IR_Img2TempGradVerStd,IR,scalar,FORBIDDEN,0,441.0,False,,0,0,0
+IR_Img3TempGradVerStd,IR,scalar,FORBIDDEN,156,280.0,False,,0,0,156
+IR_Img1TempGradVerRng,IR,scalar,FORBIDDEN,0,51.0,False,,0,0,0
+IR_Img2TempGradVerRng,IR,scalar,FORBIDDEN,0,40.0,False,,0,0,0
+IR_Img3TempGradVerRng,IR,scalar,FORBIDDEN,156,17.0,False,,0,0,156
+IR_Img1TempVerStd,IR,scalar,FORBIDDEN,0,545.0,False,,0,0,0
+IR_Img2TempVerStd,IR,scalar,FORBIDDEN,0,543.0,False,,0,0,0
+IR_Img3TempVerStd,IR,scalar,FORBIDDEN,156,389.0,False,,0,0,156
+IR_Img1TempVerRng,IR,scalar,FORBIDDEN,0,68.0,False,,0,0,0
+IR_Img2TempVerRng,IR,scalar,FORBIDDEN,0,74.0,False,,0,0,0
+IR_Img3TempVerRng,IR,scalar,FORBIDDEN,156,52.0,False,,0,0,156
+IR_Img1TempSprueDiff,IR,scalar,FORBIDDEN,0,490.0,False,,0,0,0
+IR_Img2TempSprueDiff,IR,scalar,FORBIDDEN,0,499.0,False,,0,0,0
+IR_Img3TempSprueDiff,IR,scalar,FORBIDDEN,156,364.0,False,,0,0,156
+IR_Img1TempDomeDiff,IR,scalar,FORBIDDEN,0,486.0,False,,0,0,0
+IR_Img2TempDomeDiff,IR,scalar,FORBIDDEN,0,495.0,False,,0,0,0
+IR_Img3TempDomeDiff,IR,scalar,FORBIDDEN,156,349.0,False,,0,0,156
+IR_Img1TempFullDiff,IR,scalar,FORBIDDEN,0,475.0,False,,0,0,0
+IR_Img2TempFullDiff,IR,scalar,FORBIDDEN,0,469.0,False,,0,0,0
+IR_Img3TempFullDiff,IR,scalar,FORBIDDEN,156,341.0,False,,0,0,156
+IR_Img1TempEdgeHorDiff,IR,scalar,FORBIDDEN,0,477.0,False,,0,0,0
+IR_Img2TempEdgeHorDiff,IR,scalar,FORBIDDEN,0,478.0,False,,0,0,0
+IR_Img3TempEdgeHorDiff,IR,scalar,FORBIDDEN,156,354.0,False,,0,0,156
+IR_Img1TempEdgeVerDiff,IR,scalar,FORBIDDEN,0,488.0,False,,0,0,0
+IR_Img2TempEdgeVerDiff,IR,scalar,FORBIDDEN,0,481.0,False,,0,0,0
+IR_Img3TempEdgeVerDiff,IR,scalar,FORBIDDEN,156,349.0,False,,0,0,156
+IR_Img1TempGradHorStdDiff,IR,scalar,FORBIDDEN,0,411.0,False,,0,0,0
+IR_Img2TempGradHorStdDiff,IR,scalar,FORBIDDEN,0,378.0,False,,0,0,0
+IR_Img3TempGradHorStdDiff,IR,scalar,FORBIDDEN,156,237.0,False,,0,0,156
+IR_Img1TempGradHorRngDiff,IR,scalar,FORBIDDEN,0,188.0,False,,0,0,0
+IR_Img2TempGradHorRngDiff,IR,scalar,FORBIDDEN,0,180.0,False,,0,0,0
+IR_Img3TempGradHorRngDiff,IR,scalar,FORBIDDEN,156,83.0,False,,0,0,156
+IR_Img1TempVerStdDiff,IR,scalar,FORBIDDEN,0,543.0,False,,0,0,0
+IR_Img2TempVerStdDiff,IR,scalar,FORBIDDEN,0,556.0,False,,0,0,0
+IR_Img3TempVerStdDiff,IR,scalar,FORBIDDEN,156,394.0,False,,0,0,156
+IR_Img1TempVerRngDiff,IR,scalar,FORBIDDEN,0,284.0,False,,0,0,0
+IR_Img2TempVerRngDiff,IR,scalar,FORBIDDEN,0,305.0,False,,0,0,0
+IR_Img3TempVerRngDiff,IR,scalar,FORBIDDEN,156,193.0,False,,0,0,156
+IR_Img1TempGradVerStdDiff,IR,scalar,FORBIDDEN,0,466.0,False,,0,0,0
+IR_Img2TempGradVerStdDiff,IR,scalar,FORBIDDEN,0,465.0,False,,0,0,0
+IR_Img3TempGradVerStdDiff,IR,scalar,FORBIDDEN,156,315.0,False,,0,0,156
+IR_Img1TempGradVerRngDiff,IR,scalar,FORBIDDEN,0,230.0,False,,0,0,0
+IR_Img2TempGradVerRngDiff,IR,scalar,FORBIDDEN,0,207.0,False,,0,0,0
+IR_Img3TempGradVerRngDiff,IR,scalar,FORBIDDEN,156,121.0,False,,0,0,156
+IR_Img1TempWallStd,IR,scalar,FORBIDDEN,0,165.0,False,,0,0,0
+IR_Img2TempWallStd,IR,scalar,FORBIDDEN,0,181.0,False,,0,0,0
+IR_Img3TempWallStd,IR,scalar,FORBIDDEN,156,162.0,False,,0,0,156
+IR_Img1TempWallStdDiff,IR,scalar,FORBIDDEN,0,132.0,False,,0,0,0
+IR_Img2TempWallStdDiff,IR,scalar,FORBIDDEN,0,136.0,False,,0,0,0
+IR_Img3TempWallStdDiff,IR,scalar,FORBIDDEN,156,107.0,False,,0,0,156
+IR_Img1TempEnv,IR,scalar,FORBIDDEN,0,331.0,False,,0,0,0
+CV_Width,CV,scalar,FORBIDDEN,408,144.0,False,,204,204,0
+CV_Image4Name,CV,scalar,FORBIDDEN,408,145.0,False,,204,204,0
+DRY_acBatchCounter,DRY,array,UNDECIDED,408,,False,len 0-30,204,204,0
+DRY_acComp1DosRate,DRY,array,UNDECIDED,408,,False,len 0-30,204,204,0
+DRY_acComp1TotalWeight,DRY,array,UNDECIDED,408,,False,len 0-30,204,204,0
+DRY_acDryCircuitDewPoint,DRY,array,UNDECIDED,408,,False,len 0-30,204,204,0
+DRY_acRegCircuitInletTemp,DRY,array,UNDECIDED,408,,False,len 0-30,204,204,0
+DRY_acTotalWeight,DRY,array,UNDECIDED,408,,False,len 0-30,204,204,0
+DRY_acWeight,DRY,array,UNDECIDED,408,,False,len 0-30,204,204,0
+CALC_InjectionStroke,CALC,scalar,INPUT-allowed,204,360.0,False,,0,204,0
+CALC_DosingStroke,CALC,scalar,INPUT-allowed,204,358.0,False,,0,204,0
+CALC_DosedWeight,CALC,scalar,INPUT-allowed,204,360.0,False,,0,204,0

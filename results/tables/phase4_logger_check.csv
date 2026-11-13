@@ -1,0 +1,21 @@
+target,config,metric,n_features,mean,std
+LBL_NOK,"A. cheap logger, cycle summaries only (no curves)",ROC-AUC,34,0.9602650051265874,0.010922073777296648
+LBL_NOK,B. cheap logger with curves,ROC-AUC,123,0.944033441123117,0.011069759627913397
+LBL_NOK,C. B + cavity pressure sensor,ROC-AUC,146,0.954791387333386,0.009287076160438792
+LBL_NOK,D. everything measured,ROC-AUC,177,0.9526555722060099,0.0076030790939661955
+LBL_NOK,E. setpoints only (no logger),ROC-AUC,10,0.9080432210742172,0.02072282133494723
+LBL_SinkMarks,"A. cheap logger, cycle summaries only (no curves)",ROC-AUC,34,0.9973290367589656,0.003915341334653385
+LBL_SinkMarks,B. cheap logger with curves,ROC-AUC,123,0.9999634569705828,5.801787019444059e-05
+LBL_SinkMarks,C. B + cavity pressure sensor,ROC-AUC,146,0.999973423251333,5.065511912024408e-05
+LBL_SinkMarks,D. everything measured,ROC-AUC,177,0.9999402023154993,8.914112496054637e-05
+LBL_SinkMarks,E. setpoints only (no logger),ROC-AUC,10,0.9671910037705762,0.019295810850311623
+LBL_Underfilled,"A. cheap logger, cycle summaries only (no curves)",ROC-AUC,34,0.8855489417989417,0.009307937284278424
+LBL_Underfilled,B. cheap logger with curves,ROC-AUC,123,0.8994047619047618,0.005940565507181425
+LBL_Underfilled,C. B + cavity pressure sensor,ROC-AUC,146,0.9099272486772488,0.006621746166292428
+LBL_Underfilled,D. everything measured,ROC-AUC,177,0.9050066137566137,0.007369428573928178
+LBL_Underfilled,E. setpoints only (no logger),ROC-AUC,10,0.9203968253968254,0.008518354199999204
+SCA_PartWeight,"A. cheap logger, cycle summaries only (no curves)",offset-corrected MAE [g],34,0.7792156174315285,0.2577846313102738
+SCA_PartWeight,B. cheap logger with curves,offset-corrected MAE [g],123,0.5111684127790825,0.02608318804659682
+SCA_PartWeight,C. B + cavity pressure sensor,offset-corrected MAE [g],146,0.47404394597536176,0.019473411102931992
+SCA_PartWeight,D. everything measured,offset-corrected MAE [g],177,0.4717432892946081,0.015499013077322326
+SCA_PartWeight,E. setpoints only (no logger),offset-corrected MAE [g],10,1.5916647423926915,0.07682583677564606
