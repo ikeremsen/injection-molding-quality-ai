@@ -23,9 +23,9 @@ flowchart LR
     C --> D["1 · Predict quality<br/>good / bad part, part weight"]
     C --> E["2 · Find the signals that matter<br/>= what a logger must record"]
     C --> F["3 · Suggest better settings<br/>(hypotheses to test on the machine)"]
-    style D fill:#e8f1fc,stroke:#2a78d6,color:#0b0b0b
-    style E fill:#e8f1fc,stroke:#2a78d6,color:#0b0b0b
-    style F fill:#f3f3f1,stroke:#8a8984,color:#0b0b0b
+    style D stroke:#2a78d6,stroke-width:3px
+    style E stroke:#2a78d6,stroke-width:3px
+    style F stroke:#8a8984,stroke-width:3px
 ```
 
 Goals 1 and 2 are done (on public data). Goal 3 is next.
@@ -55,12 +55,12 @@ flowchart LR
     P3 --> P4["4 · Which signals matter?<br/>→ logger signal list"]
     P4 --> P5["5 · Better settings<br/>(León) — next"]
     P5 --> P6["6 · Final report — later"]
-    style P1 fill:#e3f4ec,stroke:#1baf7a,color:#0b0b0b
-    style P2 fill:#e3f4ec,stroke:#1baf7a,color:#0b0b0b
-    style P3 fill:#e3f4ec,stroke:#1baf7a,color:#0b0b0b
-    style P4 fill:#e3f4ec,stroke:#1baf7a,color:#0b0b0b
-    style P5 fill:#f3f3f1,stroke:#8a8984,color:#0b0b0b
-    style P6 fill:#f3f3f1,stroke:#8a8984,color:#0b0b0b
+    style P1 stroke:#1baf7a,stroke-width:3px
+    style P2 stroke:#1baf7a,stroke-width:3px
+    style P3 stroke:#1baf7a,stroke-width:3px
+    style P4 stroke:#1baf7a,stroke-width:3px
+    style P5 stroke:#8a8984,stroke-width:3px
+    style P6 stroke:#8a8984,stroke-width:3px
 ```
 
 The rule in every step: **the model is always tested on experiments (or days) it has never seen.** A random split of
@@ -167,8 +167,8 @@ flowchart TB
     I --> J["Join on cycle ID"]
     J --> T["Training table"]
     T --> V["Model, tested on unseen days<br/>+ daily recalibration with reference parts"]
-    style L fill:#fff4e5,stroke:#eda100,color:#0b0b0b
-    style I fill:#fff4e5,stroke:#eda100,color:#0b0b0b
+    style L stroke:#eda100,stroke-width:3px
+    style I stroke:#eda100,stroke-width:3px
 ```
 
 Step-by-step plan, labelling rules and the experiment plan: **[docs/DATA_COLLECTION_PLAN.md](docs/DATA_COLLECTION_PLAN.md)**.
