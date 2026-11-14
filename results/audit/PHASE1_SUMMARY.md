@@ -12,7 +12,7 @@ Raw outputs: `audit_skz.txt`, `audit_polenta_leon.txt`, `skz_columns.csv`,
 
 ---
 
-## A) SKZ / Fraunhofer IPA: matches and mismatches against the brief
+## A) Main dataset (SKZ): matches and mismatches against the brief
 
 **Matches:** 564 rows, 364 columns, 143 array columns, 47 groups (17 + 17 + 13), 3 days / materials as described,
 NOK = SinkMarks OR Underfilled (0 exceptions), 155 NOK, day rates 46.6 / 23.5 / 7.7 %, no E77 columns,
@@ -61,7 +61,7 @@ continuous block of time.
 
 ---
 
-## B) León PP: real columns and what the paper does
+## B) Dataset 3 (León): real columns and what the paper does
 
 **Columns:** `batch, label_viability, Tinj, tinj, Pinj, Ph, Bp, th, P1_weight … P5_weight, weight_avg, energy, cycle_time`.
 
@@ -86,7 +86,7 @@ continuous block of time.
 
 ---
 
-## C) Polenta: real data versus the readme
+## C) Dataset 2 (Polenta): real data versus the readme
 
 - 1451 rows, 13 features + `quality`, no missing values, no duplicates. Class counts: **370 / 406 / 310 / 365**
   (the readme says 360 for class 4, which gives 1446 rows, not 1451).

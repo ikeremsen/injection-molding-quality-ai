@@ -1,4 +1,4 @@
-# Phase 3 summary: production check on the Polenta lens data
+# Phase 3 summary: production check on Dataset 2 (Polenta)
 
 Scripts: `scripts/phase3_polenta.py` (≈12 min), `scripts/phase3_report.py`. Tables: `results/tables/phase3_tables.md`,
 `phase3_summary.csv`, `phase3_runs.csv`, `phase3_confusion.csv`. Figures: `phase3_polenta_overview.png`, `phase3_polenta_confusion.png`.
@@ -33,7 +33,7 @@ Scripts: `scripts/phase3_polenta.py` (≈12 min), `scripts/phase3_report.py`. Ta
 
 - **Every mistake is between neighbouring classes** (waste↔acceptable, target↔inefficient), never two classes apart (confusion figure).
   The model has learned the ordered quality scale, which is what you'd expect from a continuous U₀ cut into bins.
-- **Random forest and gradient boosting clearly beat logistic regression here (0.94 vs 0.86)**, the opposite of SKZ. With 1451 real production rows instead of 47 settings, the flexible models have enough data.
+- **Random forest and gradient boosting clearly beat logistic regression here (0.94 vs 0.86)**, the opposite of the Main dataset (SKZ). With 1451 real production rows instead of 47 settings, the flexible models have enough data.
 - **Pressure/force/torque channels matter:** dropping them costs 0.03 (all rows) to 0.07 (clean rows) in balanced accuracy.
 - Chunks vs random rows gives almost the same *average* (0.94 vs 0.94), but the folds vary more under chunks: the worst fold is 0.85 vs 0.93.
 
@@ -48,7 +48,7 @@ Scripts: `scripts/phase3_polenta.py` (≈12 min), `scripts/phase3_report.py`. Ta
 | basic 6, all rows | RF | 0.979 | 0.95 (0.26) | 0.82 | 0.91 | 23 % |
 | basic 6, clean rows | RF | 0.920 | 0.52 (0.08) | 0.78 | 0.78 | 20 % |
 
-- **Ranking is excellent** (AUC 0.96–0.99), but **the threshold is again the weak point**, as on SKZ:
+- **Ranking is excellent** (AUC 0.96–0.99), but **the threshold is again the weak point**, as on the Main dataset (SKZ):
   - The tuned threshold *loses* 0.04–0.08 against the untuned 0.5. In folds 0 and 1 the inner CV picked a cut of 0.07–0.10, because the early chunks of the training data look different from the later ones.
   - Both numbers are leakage-free: 0.5 is a fixed default, not tuned on the test rows. The lesson is that a threshold tuned on a small, drifting history can be worse than a sensible default.
 - **False alarms come only from "acceptable" lenses** (11–13 %), and most of them from its first chunk in file order. Target and inefficient lenses are never called waste. Lenses just above the U₀ = 0.40 border look like waste, so this is a physical border case, not a model bug.
@@ -68,7 +68,7 @@ Scripts: `scripts/phase3_polenta.py` (≈12 min), `scripts/phase3_report.py`. Ta
 
 ## What Phase 3 adds to the project
 1. **Machine data predicts optical quality in real production** (4-class balanced accuracy ≈ 0.90–0.94, waste ranking AUC ≈ 0.96–0.99), and errors stay between neighbouring classes.
-2. **The threshold problem is general,** not an SKZ artefact: rankings transfer across production periods, cut-offs don't. Any product needs a calibration step.
+2. **The threshold problem is general,** not an artefact of the Main dataset (SKZ): rankings transfer across production periods, thresholds don't. Any product needs a calibration step.
 3. **Hardware hint for Phase 4:** pressure/force/torque channels add measurable value (0.03–0.07 balanced accuracy).
 4. **Data-quality warning:** part of the waste class looks synthetic, and the clean-row numbers should be the ones quoted.
 

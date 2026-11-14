@@ -1,4 +1,4 @@
-# Phase 2 summary: SKZ quality prediction
+# Phase 2 summary: quality prediction on the Main dataset (SKZ)
 
 Scripts: `scripts/phase2_skz_classification.py` (≈33 min on 12 cores), `scripts/phase2_skz_regression.py` (≈2 min),
 `scripts/phase2_report.py` (figures + `results/tables/phase2_tables.md`). Raw run tables: `results/tables/phase2_*_runs.csv`.
@@ -79,5 +79,5 @@ Overall R² is 0.9–0.99 almost everywhere, but that only says "the model knows
 3. **For the logger** (input for Phase 4): screw position (→ injection stroke / dosed volume / cushion), holding pressure, cavity pressure and melt temperature look central. Day-level context (ENV, TC pump values) added nothing.
 
 ## Open points / things to watch
-- Every SKZ number rests on 47 settings from 3 days, with extreme DoE corners. The permutation null shows AUCs up to ~0.65 by chance.
+- Every number from the Main dataset (SKZ) rests on 47 settings from 3 days, with extreme DoE corners. The permutation null shows AUCs up to ~0.65 by chance.
 - The GB setting (depth 3, 200 iterations) is untuned on purpose. Its instability (constant predictions, std up to 6 in within-day R²) is part of the finding: avoid it at this sample size.
